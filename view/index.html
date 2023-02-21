@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from coderthemes.com/adminto_1.4/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2017 00:20:41 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+        <title>Derby Airline</title>
+
+        <!--Morris Chart CSS -->
+		<link rel="stylesheet" href="../assets/plugins/morris/morris.css">
+
+        <!-- App css -->
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/core.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/components.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/pages.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/menu.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+
+      
+    </head>
+
+
+    <body class="fixed-left">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+                <div class="topbar-left">
+                    <a href="index.html" class="logo"><span>Derby<span>Airline</span></span><i class="zmdi zmdi-layers"></i></a>
+                </div>
+
+                <!-- Button mobile view to collapse sidebar menu -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+
+                        <!-- Page title -->
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <button class="button-menu-mobile open-left">
+                                    <i class="zmdi zmdi-menu"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <h4 class="page-title" nav-text>Dashboard</h4>
+                            </li>
+                        </ul>
+
+                        <!-- Right(Notification and Searchbox -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <!-- Notification -->
+                                <div class="notification-box">
+                                    <ul class="list-inline m-b-0">
+                                        <li>
+                                            <a href="javascript:void(0);" class="right-bar-toggle">
+                                                <i class="zmdi zmdi-notifications-none"></i>
+                                            </a>
+                                            <div class="noti-dot">
+                                                <span class="dot"></span>
+                                                <span class="pulse"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Notification bar -->
+                            </li>
+                            <li class="hidden-xs">
+                                <form role="search" class="app-search">
+                                    <input type="text" placeholder="Search..."
+                                           class="form-control">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </form>
+                            </li>
+                        </ul>
+
+                    </div><!-- end container -->
+                </div><!-- end navbar -->
+            </div>
+            <!-- Top Bar End -->
+
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left side-menu">
+                <div class="sidebar-inner slimscrollleft">
+
+                    <!-- User -->
+                    <div class="user-box">
+                        <div class="user-img">
+                            <img src="../assets/images/users/avatar-1.jpg" alt="user-img" title="Olanike Kolapo" class="img-circle img-thumbnail img-responsive">
+                            <div class="user-status offline"><i class="zmdi zmdi-dot-circle"></i></div>
+                        </div>
+                        <h5><a>Olanike Kolapo</a> </h5>
+                     
+                    </div>
+                    <!-- End User -->
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+                        <ul>
+                        	<li class="text-muted menu-title" >Navigation</li>
+
+                            <li>
+                                <a  class="waves-effect active" data-nav="dashboard"><i class="zmdi zmdi-view-dashboard"></i> <span> Dashboard </span> </a>
+                            </li>
+
+                        
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-invert-colors"></i> <span> User management </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a data-nav="admin">Admin</a></li>
+                                    <li><a data-nav="system users">System Users</a></li>
+                                </ul>
+                            </li>
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-invert-colors"></i> <span> Admin Management </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a data-nav="airplane">Airplane</a></li>
+                                    <li><a data-nav="airport">Airport</a></li>
+                                    <li><a data-nav="city">City</a></li>
+                                    <li><a data-nav="country">Country</a></li>
+                                    <li><a data-nav="flight">Flight</a></li>
+                                    <li><a data-nav="staff">Staff</a></li>
+                                </ul>
+                            </li>
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="zmdi zmdi-invert-colors"></i> <span> Browse/Search </span> <span class="menu-arrow"></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a data-nav="airplane details">Airplane Details</a></li>
+                                    <li><a data-nav="booking details">Booking Details</a></li>
+                                    <li><a data-nav="passengers and bookings">Passengers and Bookings</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a data-logout="" class="waves-effect"><i class="zmdi zmdi-view-dashboard"></i> <span> Logout </span> </a>
+                            </li>
+
+                         
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- Sidebar -->
+                    <div class="clearfix"></div>
+
+                </div>
+
+            </div>
+            <!-- Left Sidebar End -->
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container">
+
+                    <div class ="dashboard" data-template="dashboard">
+                        
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #e11919 !important;">Total Users</h4>
+                                            <h2 class="m-b-0"> 3 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #10c469 !important;">Total Passengers</h4>
+                                            <h2 class="m-b-0"> 6 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #5b69bc !important;">Total Pilots</h4>
+                                            <h2 class="m-b-0"> 6 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #188ae2 !important;">Total Bookings</h4>
+                                            <h2 class="m-b-0"> 4 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #e11919 !important;">Total Admin</h4>
+                                            <h2 class="m-b-0"> 3 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #10c469 !important;">Total Flights</h4>
+                                            <h2 class="m-b-0"> 6 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #5b69bc !important;">Total Airplane</h4>
+                                            <h2 class="m-b-0"> 6 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card-box widget-user">
+                                    <div>
+                                        
+                                        <div class="wid-u-info" style="margin-left: 0px !important;">
+                                            <h4 class="m-t-0 m-b-5 font-600" style="color: #188ae2 !important;">Total Airport</h4>
+                                            <h2 class="m-b-0"> 4 </h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                        <!-- end row -->
+
+                  
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                        		<div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                           
+                                        </ul>
+                                    </div>
+
+                        			<h4 class="header-title m-t-0">Passenger statistics</h4>
+
+                                    <div class="widget-chart text-center">
+                                        <div id="morris-donut-example"style="height: 245px;"></div>
+                                        <ul class="list-inline chart-detail-list m-b-0">
+                                           
+                                            <li>
+                                                <h5 style="color: #5b69bc;"><i class="fa fa-circle m-r-5"></i>Male</h5>
+                                            </li>
+                                            <li>
+                                                <h5 style="color: #ff8acc;"><i class="fa fa-circle m-r-5"></i>Female</h5>
+                                            </li>
+                                        </ul>
+                                	</div>
+                        		</div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-4" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="header-title m-t-0">Statistics</h4>
+                                    <div id="morris-bar-example" style="height: 280px;"></div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-4" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="header-title m-t-0">Total Revenue</h4>
+                                    <div id="morris-line-example" style="height: 280px;"></div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-8">
+                                <div class="card-box table-responsive">
+
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                          
+                                        </ul>
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Destination and its schedule</h4>
+
+                                    <table id="datatable-fixed-header" class="table table-striped table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Salary</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                           
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>Junior Technical Author</td>
+                                                <td>San Francisco</td>
+                                                <td>66</td>
+                                                <td>2009/01/12</td>
+                                                <td>$86,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2012/03/29</td>
+                                                <td>$433,060</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Airi Satou</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>33</td>
+                                                <td>2008/11/28</td>
+                                                <td>$162,700</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brielle Williamson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>New York</td>
+                                                <td>61</td>
+                                                <td>2012/12/02</td>
+                                                <td>$372,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Herrod Chandler</td>
+                                                <td>Sales Assistant</td>
+                                                <td>San Francisco</td>
+                                                <td>59</td>
+                                                <td>2012/08/06</td>
+                                                <td>$137,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rhona Davidson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>Tokyo</td>
+                                                <td>55</td>
+                                                <td>2010/10/14</td>
+                                                <td>$327,900</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Colleen Hurst</td>
+                                                <td>Javascript Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>39</td>
+                                                <td>2009/09/15</td>
+                                                <td>$205,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sonya Frost</td>
+                                                <td>Software Engineer</td>
+                                                <td>Edinburgh</td>
+                                                <td>23</td>
+                                                <td>2008/12/13</td>
+                                                <td>$103,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jena Gaines</td>
+                                                <td>Office Manager</td>
+                                                <td>London</td>
+                                                <td>30</td>
+                                                <td>2008/12/19</td>
+                                                <td>$90,560</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Quinn Flynn</td>
+                                                <td>Support Lead</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2013/03/03</td>
+                                                <td>$342,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Charde Marshall</td>
+                                                <td>Regional Director</td>
+                                                <td>San Francisco</td>
+                                                <td>36</td>
+                                                <td>2008/10/16</td>
+                                                <td>$470,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Haley Kennedy</td>
+                                                <td>Senior Marketing Designer</td>
+                                                <td>London</td>
+                                                <td>43</td>
+                                                <td>2012/12/18</td>
+                                                <td>$313,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tatyana Fitzpatrick</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>19</td>
+                                                <td>2010/03/17</td>
+                                                <td>$385,750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Silva</td>
+                                                <td>Marketing Designer</td>
+                                                <td>London</td>
+                                                <td>66</td>
+                                                <td>2012/11/27</td>
+                                                <td>$198,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Paul Byrd</td>
+                                                <td>Chief Financial Officer (CFO)</td>
+                                                <td>New York</td>
+                                                <td>64</td>
+                                                <td>2010/06/09</td>
+                                                <td>$725,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gloria Little</td>
+                                                <td>Systems Administrator</td>
+                                                <td>New York</td>
+                                                <td>59</td>
+                                                <td>2009/04/10</td>
+                                                <td>$237,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bradley Greer</td>
+                                                <td>Software Engineer</td>
+                                                <td>London</td>
+                                                <td>41</td>
+                                                <td>2012/10/13</td>
+                                                <td>$132,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dai Rios</td>
+                                                <td>Personnel Lead</td>
+                                                <td>Edinburgh</td>
+                                                <td>35</td>
+                                                <td>2012/09/26</td>
+                                                <td>$217,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jenette Caldwell</td>
+                                                <td>Development Lead</td>
+                                                <td>New York</td>
+                                                <td>30</td>
+                                                <td>2011/09/03</td>
+                                                <td>$345,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Yuri Berry</td>
+                                                <td>Chief Marketing Officer (CMO)</td>
+                                                <td>New York</td>
+                                                <td>40</td>
+                                                <td>2009/06/25</td>
+                                                <td>$675,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Caesar Vance</td>
+                                                <td>Pre-Sales Support</td>
+                                                <td>New York</td>
+                                                <td>21</td>
+                                                <td>2011/12/12</td>
+                                                <td>$106,450</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>29</td>
+                                                <td>2011/06/27</td>
+                                                <td>$183,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>27</td>
+                                                <td>2011/01/25</td>
+                                                <td>$112,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+
+
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Pilot schedule by month</h4>
+
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                
+                                                <th>Month</th>
+                                                <th>Pilots</th>
+                                                
+                                                
+                                                
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    
+                                                    <td>January</td>
+                                                    <td><ul><li>Olanike Owopetu</li></ul></td>
+                                                    
+                                                    
+                                                    
+                                                </tr>
+<tr>
+                                                    
+                                                    <td>February</td>
+                                                    <td><ul><li>Olanike Owopetu</li></ul></td>
+                                                    
+                                                    
+                                                    
+                                                </tr>
+                                                
+                                                
+                                               
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Number of passengers by flight</h4>
+
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Flight Number</th>
+                                                <th>Flight Code</th>
+                                                <th>Passengers</th>
+                                                <th>Schedule</th>
+                                                <th>Total Payment</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>111</td>
+                                                    <td>MAN - LAG</td>
+                                                    <td>2</td>
+                                                    <td><span class="label label-danger">Daily</span></td>
+                                                    <td>$400,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>111</td>
+                                                    <td>MAN - LAG</td>
+                                                    <td>2</td>
+                                                    <td><span class="label label-success">Weekly</span></td>
+                                                    <td>$400,000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>111</td>
+                                                    <td>MAN - LAG</td>
+                                                    <td>2</td>
+                                                    <td><span class="label label-pink">Monthly</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                               
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+
+                        </div>
+                        <!-- end row -->
+
+                        
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card-box table-responsive">
+
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu">
+                                          
+                                        </ul>
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30">Number of working hours for pilot</h4>
+
+                                    <table id="datatable-fixed-header" class="table table-striped table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Salary</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Tiger Nixon</td>
+                                                <td>System Architect</td>
+                                                <td>Edinburgh</td>
+                                                <td>61</td>
+                                                <td>2011/04/25</td>
+                                                <td>$320,800</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Garrett Winters</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>63</td>
+                                                <td>2011/07/25</td>
+                                                <td>$170,750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>Junior Technical Author</td>
+                                                <td>San Francisco</td>
+                                                <td>66</td>
+                                                <td>2009/01/12</td>
+                                                <td>$86,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2012/03/29</td>
+                                                <td>$433,060</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Airi Satou</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>33</td>
+                                                <td>2008/11/28</td>
+                                                <td>$162,700</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brielle Williamson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>New York</td>
+                                                <td>61</td>
+                                                <td>2012/12/02</td>
+                                                <td>$372,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Herrod Chandler</td>
+                                                <td>Sales Assistant</td>
+                                                <td>San Francisco</td>
+                                                <td>59</td>
+                                                <td>2012/08/06</td>
+                                                <td>$137,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rhona Davidson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>Tokyo</td>
+                                                <td>55</td>
+                                                <td>2010/10/14</td>
+                                                <td>$327,900</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Colleen Hurst</td>
+                                                <td>Javascript Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>39</td>
+                                                <td>2009/09/15</td>
+                                                <td>$205,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sonya Frost</td>
+                                                <td>Software Engineer</td>
+                                                <td>Edinburgh</td>
+                                                <td>23</td>
+                                                <td>2008/12/13</td>
+                                                <td>$103,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jena Gaines</td>
+                                                <td>Office Manager</td>
+                                                <td>London</td>
+                                                <td>30</td>
+                                                <td>2008/12/19</td>
+                                                <td>$90,560</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Quinn Flynn</td>
+                                                <td>Support Lead</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2013/03/03</td>
+                                                <td>$342,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Charde Marshall</td>
+                                                <td>Regional Director</td>
+                                                <td>San Francisco</td>
+                                                <td>36</td>
+                                                <td>2008/10/16</td>
+                                                <td>$470,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Haley Kennedy</td>
+                                                <td>Senior Marketing Designer</td>
+                                                <td>London</td>
+                                                <td>43</td>
+                                                <td>2012/12/18</td>
+                                                <td>$313,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tatyana Fitzpatrick</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>19</td>
+                                                <td>2010/03/17</td>
+                                                <td>$385,750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Silva</td>
+                                                <td>Marketing Designer</td>
+                                                <td>London</td>
+                                                <td>66</td>
+                                                <td>2012/11/27</td>
+                                                <td>$198,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Paul Byrd</td>
+                                                <td>Chief Financial Officer (CFO)</td>
+                                                <td>New York</td>
+                                                <td>64</td>
+                                                <td>2010/06/09</td>
+                                                <td>$725,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gloria Little</td>
+                                                <td>Systems Administrator</td>
+                                                <td>New York</td>
+                                                <td>59</td>
+                                                <td>2009/04/10</td>
+                                                <td>$237,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bradley Greer</td>
+                                                <td>Software Engineer</td>
+                                                <td>London</td>
+                                                <td>41</td>
+                                                <td>2012/10/13</td>
+                                                <td>$132,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dai Rios</td>
+                                                <td>Personnel Lead</td>
+                                                <td>Edinburgh</td>
+                                                <td>35</td>
+                                                <td>2012/09/26</td>
+                                                <td>$217,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jenette Caldwell</td>
+                                                <td>Development Lead</td>
+                                                <td>New York</td>
+                                                <td>30</td>
+                                                <td>2011/09/03</td>
+                                                <td>$345,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Yuri Berry</td>
+                                                <td>Chief Marketing Officer (CMO)</td>
+                                                <td>New York</td>
+                                                <td>40</td>
+                                                <td>2009/06/25</td>
+                                                <td>$675,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Caesar Vance</td>
+                                                <td>Pre-Sales Support</td>
+                                                <td>New York</td>
+                                                <td>21</td>
+                                                <td>2011/12/12</td>
+                                                <td>$106,450</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Doris Wilder</td>
+                                                <td>Sales Assistant</td>
+                                                <td>Sidney</td>
+                                                <td>23</td>
+                                                <td>2010/09/20</td>
+                                                <td>$85,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Angelica Ramos</td>
+                                                <td>Chief Executive Officer (CEO)</td>
+                                                <td>London</td>
+                                                <td>47</td>
+                                                <td>2009/10/09</td>
+                                                <td>$1,200,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gavin Joyce</td>
+                                                <td>Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>42</td>
+                                                <td>2010/12/22</td>
+                                                <td>$92,575</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jennifer Chang</td>
+                                                <td>Regional Director</td>
+                                                <td>Singapore</td>
+                                                <td>28</td>
+                                                <td>2010/11/14</td>
+                                                <td>$357,650</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brenden Wagner</td>
+                                                <td>Software Engineer</td>
+                                                <td>San Francisco</td>
+                                                <td>28</td>
+                                                <td>2011/06/07</td>
+                                                <td>$206,850</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fiona Green</td>
+                                                <td>Chief Operating Officer (COO)</td>
+                                                <td>San Francisco</td>
+                                                <td>48</td>
+                                                <td>2010/03/11</td>
+                                                <td>$850,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shou Itou</td>
+                                                <td>Regional Marketing</td>
+                                                <td>Tokyo</td>
+                                                <td>20</td>
+                                                <td>2011/08/14</td>
+                                                <td>$163,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michelle House</td>
+                                                <td>Integration Specialist</td>
+                                                <td>Sidney</td>
+                                                <td>37</td>
+                                                <td>2011/06/02</td>
+                                                <td>$95,400</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Suki Burks</td>
+                                                <td>Developer</td>
+                                                <td>London</td>
+                                                <td>53</td>
+                                                <td>2009/10/22</td>
+                                                <td>$114,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Prescott Bartlett</td>
+                                                <td>Technical Author</td>
+                                                <td>London</td>
+                                                <td>27</td>
+                                                <td>2011/05/07</td>
+                                                <td>$145,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gavin Cortez</td>
+                                                <td>Team Leader</td>
+                                                <td>San Francisco</td>
+                                                <td>22</td>
+                                                <td>2008/10/26</td>
+                                                <td>$235,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Martena Mccray</td>
+                                                <td>Post-Sales support</td>
+                                                <td>Edinburgh</td>
+                                                <td>46</td>
+                                                <td>2011/03/09</td>
+                                                <td>$324,050</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Unity Butler</td>
+                                                <td>Marketing Designer</td>
+                                                <td>San Francisco</td>
+                                                <td>47</td>
+                                                <td>2009/12/09</td>
+                                                <td>$85,675</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Howard Hatfield</td>
+                                                <td>Office Manager</td>
+                                                <td>San Francisco</td>
+                                                <td>51</td>
+                                                <td>2008/12/16</td>
+                                                <td>$164,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hope Fuentes</td>
+                                                <td>Secretary</td>
+                                                <td>San Francisco</td>
+                                                <td>41</td>
+                                                <td>2010/02/12</td>
+                                                <td>$109,850</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Vivian Harrell</td>
+                                                <td>Financial Controller</td>
+                                                <td>San Francisco</td>
+                                                <td>62</td>
+                                                <td>2009/02/14</td>
+                                                <td>$452,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Timothy Mooney</td>
+                                                <td>Office Manager</td>
+                                                <td>London</td>
+                                                <td>37</td>
+                                                <td>2008/12/11</td>
+                                                <td>$136,200</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jackson Bradshaw</td>
+                                                <td>Director</td>
+                                                <td>New York</td>
+                                                <td>65</td>
+                                                <td>2008/09/26</td>
+                                                <td>$645,750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Olivia Liang</td>
+                                                <td>Support Engineer</td>
+                                                <td>Singapore</td>
+                                                <td>64</td>
+                                                <td>2011/02/03</td>
+                                                <td>$234,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bruno Nash</td>
+                                                <td>Software Engineer</td>
+                                                <td>London</td>
+                                                <td>38</td>
+                                                <td>2011/05/03</td>
+                                                <td>$163,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sakura Yamamoto</td>
+                                                <td>Support Engineer</td>
+                                                <td>Tokyo</td>
+                                                <td>37</td>
+                                                <td>2009/08/19</td>
+                                                <td>$139,575</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Thor Walton</td>
+                                                <td>Developer</td>
+                                                <td>New York</td>
+                                                <td>61</td>
+                                                <td>2013/08/11</td>
+                                                <td>$98,540</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Finn Camacho</td>
+                                                <td>Support Engineer</td>
+                                                <td>San Francisco</td>
+                                                <td>47</td>
+                                                <td>2009/07/07</td>
+                                                <td>$87,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Serge Baldwin</td>
+                                                <td>Data Coordinator</td>
+                                                <td>Singapore</td>
+                                                <td>64</td>
+                                                <td>2012/04/09</td>
+                                                <td>$138,575</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Zenaida Frank</td>
+                                                <td>Software Engineer</td>
+                                                <td>New York</td>
+                                                <td>63</td>
+                                                <td>2010/01/04</td>
+                                                <td>$125,250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Zorita Serrano</td>
+                                                <td>Software Engineer</td>
+                                                <td>San Francisco</td>
+                                                <td>56</td>
+                                                <td>2012/06/01</td>
+                                                <td>$115,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jennifer Acosta</td>
+                                                <td>Junior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>43</td>
+                                                <td>2013/02/01</td>
+                                                <td>$75,650</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cara Stevens</td>
+                                                <td>Sales Assistant</td>
+                                                <td>New York</td>
+                                                <td>46</td>
+                                                <td>2011/12/06</td>
+                                                <td>$145,600</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hermione Butler</td>
+                                                <td>Regional Director</td>
+                                                <td>London</td>
+                                                <td>47</td>
+                                                <td>2011/03/21</td>
+                                                <td>$356,250</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Lael Greer</td>
+                                                <td>Systems Administrator</td>
+                                                <td>London</td>
+                                                <td>21</td>
+                                                <td>2009/02/27</td>
+                                                <td>$103,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Jonas Alexander</td>
+                                                <td>Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>30</td>
+                                                <td>2010/07/14</td>
+                                                <td>$86,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Shad Decker</td>
+                                                <td>Regional Director</td>
+                                                <td>Edinburgh</td>
+                                                <td>51</td>
+                                                <td>2008/11/13</td>
+                                                <td>$183,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Michael Bruce</td>
+                                                <td>Javascript Developer</td>
+                                                <td>Singapore</td>
+                                                <td>29</td>
+                                                <td>2011/06/27</td>
+                                                <td>$183,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Donna Snider</td>
+                                                <td>Customer Support</td>
+                                                <td>New York</td>
+                                                <td>27</td>
+                                                <td>2011/01/25</td>
+                                                <td>$112,000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- end col -->
+
+                           
+                        </div>
+                        <!-- end row -->
+
+                     </div>
+
+                        
+                        <div class="row">
+                            <div class="col-lg-4" data-template="admin" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="userName">User Name*</label>
+                                            <input type="text" name="userName" data-model='ADMIN_USER_NAME' parsley-trigger="change" required
+                                                   placeholder="Enter user name" class="form-control form-collect" id="userName">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pass1">Password*</label>
+                                            <input id="pass1" type="password" placeholder="Password" required
+                                                   class="form-control form-collect">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="passWord2">Confirm Password *</label>
+                                            <input data-parsley-equalto="#pass1" data-model='ADMIN_PASSWORD' type="password" required
+                                                   placeholder="Password" class="form-control form-collect" id="passWord2">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="rating">Active*</label>
+                                            <select required id="rating" data-model='ADMIN_ACTIVE' class="form-control">
+                                                <option value= "1">Yes</option>
+                                                <option value = "0">No</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="admin">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-4" data-template="airplane" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="serialnumber">Serial Number*</label>
+                                            <input type="text" name="serialnumber" data-model='AIRPLANE_SERIAL_NUMBER' parsley-trigger="change" required
+                                                   placeholder="Enter Serial Number" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Manufacturer">Manufacturer*</label>
+                                            <input type="text" name="Manufacturer" data-model='AIRPLANE_MANUFACTURER' parsley-trigger="change" required
+                                                   placeholder="Enter Manufacturer" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="MN">Model Number*</label>
+                                            <input id="MN" type="text" placeholder="Model Number" data-model='AIRPLANE_MODEL_NUMBER' required
+                                                   class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="rating">Rating*</label>
+                                            <select required id="rating" data-model='AIRPLANE_RATING' class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="airplane">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-4" data-template="airport" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="airportname">Name*</label>
+                                            <input type="text" name="airportname" data-model='AIRPORT_NAME' parsley-trigger="change" required
+                                                   placeholder="Enter Airport Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="airportcode">Code*</label>
+                                            <input type="text" name="airportcode" data-model='AIRPORT_CODE'  parsley-trigger="change" required
+                                                   placeholder="Enter Airport Code" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="airport_city_id">City*</label>
+                                            <select required id="airport_city_id" data-model='AIRPORT_CITY_ID'  class="form-control">
+                                                <option value="">Select a City</option>
+                                                <option value="1">Manchester</option>
+                                                <option value="2">Canada</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="airport">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+
+                            <div class="col-lg-4" data-template="city" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="cityname">Name*</label>
+                                            <input type="text" name="cityname" data-model='CITY_NAME'  parsley-trigger="change" required
+                                                   placeholder="Enter City Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="citycode">Code*</label>
+                                            <input type="text" name="citycode" data-model='CITY_CODE' parsley-trigger="change" required
+                                                   placeholder="Enter City Code" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="country">Country*</label>
+                                            <select required id="country"  data-model='CITY_COUNTRY_ID'  class="form-control">
+                                                <option value="">Select a Country</option>
+                                                <option value="1">Nigeria</option>
+                                                <option value="2">Ghana</option>
+                                            
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="city">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-lg-4" data-template="country" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="countryname">Name*</label>
+                                            <input type="text" name="countryname" data-model='COUNTRY_NAME' parsley-trigger="change" required
+                                                   placeholder="Enter Country Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="countrycode">Code*</label>
+                                            <input type="text" name="countrycode" data-model='COUNTRY_CODE' parsley-trigger="change" required
+                                                   placeholder="Enter Country Code" class="form-control">
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="country">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- end col -->
+
+                            <div class="col-lg-4" data-template="currency" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="currencyname">Name*</label>
+                                            <input type="text" name="currencyname" data-model='CURRENCY_NAME' parsley-trigger="change" required
+                                                   placeholder="Enter Currency Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="currencycode">Code*</label>
+                                            <input type="text" name="currencycode" data-model='CURRENCY_CODE' parsley-trigger="change" required
+                                                   placeholder="Enter Currency Code" class="form-control">
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="currency">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-lg-4" data-template="flight" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+                                   
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="flight_name">Name*</label>
+                                            <input type="text" name="flight_name" data-model='FLIGHT_NAME'  parsley-trigger="change" required
+                                                   placeholder="Enter Flight Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="flight_price">Price*</label>
+                                            <input type="number" name="flight_price" data-model='FLIGHT_PRICE' parsley-trigger="change" required
+                                                   placeholder="Enter Flight Price" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="origin_airport_id">Origin Airport*</label>
+                                            <select required id="origin_airport_id"  data-model='FLIGHT_ORIGIN_ID'  class="form-control">
+                                                <option value="">Select Origin Airport</option>
+                                             
+                                            
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="dest_airport_id">Final Destination Airport*</label>
+                                            <select required id="dest_airport_id"  data-model='FLIGHT_FINAL_ID'  class="form-control">
+                                                <option value="">Select Destination Airport</option>
+                                              
+                                            
+                                            </select>
+                                        </div>
+                                      
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-actiontype="FLIGHT DETAILS SELECT"  data-select="flight details" data-target="#tabs-modal">Add Flight Details</button>
+
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+
+                            <div class="col-lg-4" data-template="staff" style="display: none">
+                                <div class="card-box">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                      
+                                    </div>
+
+                                    <h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Form</h4>
+
+                                    <div data-parsley-validate novalidate>
+                                        <div class="form-group">
+                                            <label for="staff_surname">Surname*</label>
+                                            <input type="text" name="staff_surname" data-model='STAFF_SURNAME' parsley-trigger="change" required
+                                                   placeholder="Enter Staff Surname" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="staff_given_name">Given name*</label>
+                                            <input type="text" name="staff_given_name" data-model='STAFF_GIVEN_NAME' parsley-trigger="change" required
+                                                   placeholder="Enter Given Names" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="staff_address">Address*</label>
+                                            <input type="text" name="staff_address" data-model='STAFF_ADDRESS' parsley-trigger="change" required
+                                                   placeholder="Enter Address" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="staff_phone_number">Phone Number*</label>
+                                            <input type="text" name="staff_phone_number" data-model='STAFF_PHONE_NUMBER' parsley-trigger="change" required
+                                                   placeholder="Enter Phone Number" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="staff_type">Type*</label>
+                                            <select required id="staff_type" class="form-control" data-model='STAFF_TYPE'>
+                                                <option>Pilot</option>
+                                                <option>Cabinent</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="staff_salary">Salary*</label>
+                                            <input type="number" name="staff_salary" data-model='STAFF_SALARY' parsley-trigger="change" required
+                                                   placeholder="Enter Salary" class="form-control">
+                                        </div>
+                                         <div class="form-group">
+                                            <label for="staff_currency">Currency*</label>
+                                            <select required id="staff_currency" data-model='STAFF_SALARY_CURRENCY_ID' class="form-control">
+                                                <option value="1">Pounds</option>
+                                                <option value="2">Dollar</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="staff_rating">Rating*</label>
+                                            <select required id="staff_rating" data-model='STAFF_RATING'  class="form-control">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group text-right m-b-0">
+                                            <button class="btn btn-primary waves-effect waves-light" data-btn="staff">
+                                                Submit
+                                            </button>
+                                            <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                Cancel
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-8" data-template="table" style="display: none" >
+                                <div class="card-box table-responsive">
+                                    <div class="dropdown pull-right">
+                                        <a href="#" class="dropdown-toggle card-drop" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="zmdi zmdi-more-vert"></i>
+                                        </a>
+                                       
+                                    </div>
+
+                        			<h4 class="header-title m-t-0 m-b-30"><span nav-text></span> Records</h4>
+
+                                    <table id="datatable-buttons" class="table table-striped table-bordered datatable-buttons formTable">
+                                        <thead>
+                                            <tr>
+                                                <th>Username</th>
+                                                <th>Password</th>
+                                                <th>Active</th>
+                                                <th>Date</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                           
+                                      
+                                        </tbody>
+                                    </table>
+                                  
+                                </div>
+                            </div><!-- end col -->
+                        </div>
+
+                        <div id="tabs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                            <div class="modal-dialog" style=" width: 1000px !important;">
+                                <div class="modal-content p-0">
+                                    <ul class="nav nav-tabs navtab-bg nav-justified">
+                                   
+                                        <li class="active">
+                                            <a href="#messages-2" data-toggle="tab" aria-expanded="true">
+                                                <span class="visible-xs"><i class="fa fa-envelope-o"></i></span>
+                                                <span class="hidden-xs">Add Flight details</span>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#settings-2" data-toggle="tab" aria-expanded="false">
+                                                <span class="visible-xs"><i class="fa fa-cog"></i></span>
+                                                <span class="hidden-xs">View Flight Details</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                      
+                                        <div class="tab-pane active" id="messages-2">
+                                            <div data-parsley-validate novalidate class="row" data-innertemplate="flight details">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="flight_code">Code*</label>
+                                                        <input type="text" name="flight_code" data-model='FLIGHT_CODE'  parsley-trigger="change" required
+                                                               placeholder="Enter Flight Code" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="flight_date">Date*</label>
+                                                        <input type="text" name="flight_date" data-model='FLIGHT_DATE'  data-mask="99/99/9999" parsley-trigger="change" required
+                                                               placeholder="" class="form-control">
+                                                    </div>
+                                                    
+                                                    <div class="form-group">
+                                                        <label for="schedule">Schedule*</label>
+                                                        <select required id="schedule"  data-model='FLIGHT_SCHEDULE'  class="form-control">
+                                                            <option value="">Select Schedule</option>
+                                                            <option value="Daily">Daily</option>
+                                                            <option value="Weekly">Weekly</option>
+                                                            <option value="Monthly">Monthly</option>
+                                                        
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="origin_airport">Origin Airport*</label>
+                                                        <select required id="origin_airport"  data-model='ORIGIN_AIRPORT_ID'  class="form-control">
+                                                            <option value="">Select Origin Airport</option>
+                                                         
+                                                        
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="dest_airport">Destination Airport*</label>
+                                                        <select required id="dest_airport"  data-model='DEST_AIRPORT_ID'  class="form-control">
+                                                            <option value="">Select Destination Airport</option>
+                                                          
+                                                        
+                                                        </select>
+                                                    </div>
+                                       
+            
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="flight_date">Depature Time*</label>
+                                                        <div class="input-group m-b-15">
+                                                           <div class="bootstrap-timepicker">
+                                                               <input id="dept_time" type="text"  data-model='DEPT_TIME'   class="form-control">
+                                                           </div>
+                                                           <span class="input-group-addon bg-primary b-0 text-white"><i class="glyphicon glyphicon-time"></i></span>
+                                                       </div>
+                                                       </div>
+                                                       <div class="form-group">
+                                                           <label for="flight_date">Arrival Time*</label>
+                                                           <div class="input-group m-b-15">
+                                                              <div class="bootstrap-timepicker">
+                                                                  <input id="arr_time" type="text"  data-model='ARR_TIME' class="form-control">
+                                                              </div>
+                                                              <span class="input-group-addon bg-primary b-0 text-white"><i class="glyphicon glyphicon-time"></i></span>
+                                                          </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="airplane_id">Airplane*</label>
+                                                            <select required id="airplane_id" data-change="LOAD PILOT RATING" data-model='AIRPLANE_ID' class="form-control">
+                                                                <option value="">Select Airplane</option>
+                                                       
+                                                            
+                                                            </select>
+                                                        </div>
+    
+                                                       <div class="form-group">
+                                                           <label for="pilot_id">Pilot*</label>
+                                                           <select required id="pilot_id"  data-model='PILOT_ID'  class="form-control">
+                                                               <option value="">Select Pilot</option>
+                                                     
+                                                           
+                                                           </select>
+                                                       </div>
+                                                </div>
+
+                                                <div class="form-group text-right m-b-0">
+                                                    <button class="btn btn-primary waves-effect waves-light" data-add="flight details">
+                                                        Add 
+                                                    </button>
+                                                    <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                        Clear
+                                                    </button>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="settings-2">
+                                            <div class="table-responsive">
+                                                <table class="table modalTable">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Code</th>
+                                                            <th>Date</th>
+                                                            <th>Schedule</th>
+                                                            <th>Origin Airport</th>
+                                                            <th>Dest Airport</th>
+                                                            <th>Arrival Time</th>
+                                                            <th>Depature Time</th>
+                                                            <th>Airplane</th>
+                                                            <th>Pilot</th>
+                                                         
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>olanike.kolapo</td>
+                                                            <td>olanike###</td>
+                                                            <td>Yes</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td>20 OCT 2021 8:18AM</td>
+                                                            <td><a class="label label-danger delete" data-id="1">Delete</a></td>
+                                                        </tr>
+                                                       
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                            <div class="form-group text-right m-b-0">
+                                                <button class="btn btn-primary waves-effect waves-light" data-btn="flight">
+                                                    Submit
+                                                </button>
+                                                <button type="reset" class="btn btn-default waves-effect waves-light m-l-5">
+                                                    Cancel
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+           
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <footer class="footer text-right">
+                   
+                </footer>
+
+            </div>
+
+
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+            <!-- Right Sidebar -->
+            <div class="side-bar right-bar">
+                <a href="javascript:void(0);" class="right-bar-toggle">
+                    <i class="zmdi zmdi-close-circle-o"></i>
+                </a>
+                <h4 class="">Notifications</h4>
+                <div class="notification-list nicescroll">
+                    <ul class="list-group list-no-border user-list">
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="avatar">
+                                    <img src="../assets/images/users/avatar-2.jpg" alt="">
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">Michael Zenaty</span>
+                                    <span class="desc">There are new settings available</span>
+                                    <span class="time">2 hours ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="icon bg-info">
+                                    <i class="zmdi zmdi-account"></i>
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">New Signup</span>
+                                    <span class="desc">There are new settings available</span>
+                                    <span class="time">5 hours ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#" class="user-list-item">
+                                <div class="icon bg-pink">
+                                    <i class="zmdi zmdi-comment"></i>
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">New Message received</span>
+                                    <span class="desc">There are new settings available</span>
+                                    <span class="time">1 day ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item active">
+                            <a href="#" class="user-list-item">
+                                <div class="avatar">
+                                    <img src="../assets/images/users/avatar-3.jpg" alt="">
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">James Anderson</span>
+                                    <span class="desc">There are new settings available</span>
+                                    <span class="time">2 days ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-group-item active">
+                            <a href="#" class="user-list-item">
+                                <div class="icon bg-warning">
+                                    <i class="zmdi zmdi-settings"></i>
+                                </div>
+                                <div class="user-desc">
+                                    <span class="name">Settings</span>
+                                    <span class="desc">There are new settings available</span>
+                                    <span class="time">1 day ago</span>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /Right-bar -->
+
+        </div>
+        <!-- END wrapper -->
+
+
+
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/detect.js"></script>
+        <script src="../assets/js/fastclick.js"></script>
+        <script src="../assets/js/jquery.blockUI.js"></script>
+        <script src="../assets/js/waves.js"></script>
+        <script src="../assets/js/jquery.nicescroll.js"></script>
+        <script src="../assets/js/jquery.slimscroll.js"></script>
+        <script src="../assets/js/jquery.scrollTo.min.js"></script>
+
+        <!-- KNOB JS -->
+        <!--[if IE]>
+        <script type="text/javascript" src="../assets/plugins/jquery-knob/excanvas.js"></script>
+        <![endif]-->
+        <script src="../assets/plugins/jquery-knob/jquery.knob.js"></script>
+
+        <!--Morris Chart-->
+		<script src="../assets/plugins/morris/morris.min.js"></script>
+		<script src="../assets/plugins/raphael/raphael-min.js"></script>
+
+        <!-- Dashboard init -->
+        <script src="../assets/pages/jquery.dashboard.js"></script>
+
+        <!-- Datatables-->
+        <script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.bootstrap.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="../assets/plugins/datatables/buttons.bootstrap.min.js"></script>
+        <script src="../assets/plugins/datatables/jszip.min.js"></script>
+        <script src="../assets/plugins/datatables/pdfmake.min.js"></script>
+        <script src="../assets/plugins/datatables/vfs_fonts.js"></script>
+        <script src="../assets/plugins/datatables/buttons.html5.min.js"></script>
+        <script src="../assets/plugins/datatables/buttons.print.min.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.keyTable.min.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="../assets/plugins/datatables/responsive.bootstrap.min.js"></script>
+        <script src="../assets/plugins/datatables/dataTables.scroller.min.js"></script>
+
+        <!-- Datatable init js -->
+        <script src="../assets/pages/datatables.init.js"></script>
+
+        
+        <!-- Validation js (Parsleyjs) -->
+        <script type="text/javascript" src="../assets/plugins/parsleyjs/dist/parsley.min.js"></script>
+
+        
+        <!-- Modal-Effect -->
+        <script src="../assets/plugins/custombox/dist/custombox.min.js"></script>
+        <script src="../assets/plugins/custombox/dist/legacy.min.js"></script>
+
+        
+        <!-- Plugins Js -->
+        <script src="../assets/plugins/switchery/switchery.min.js"></script>
+        <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+        <script type="text/javascript" src="../assets/plugins/multiselect/js/jquery.multi-select.js"></script>
+        <script type="text/javascript" src="../assets/plugins/jquery-quicksearch/jquery.quicksearch.js"></script>
+        <script src="../assets/plugins/select2/dist/js/select2.min.js" type="text/javascript"></script>
+        <script src="../assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js" type="text/javascript"></script>
+        <script src="../assets/plugins/bootstrap-inputmask/bootstrap-inputmask.min.js" type="text/javascript"></script>
+        <script src="../assets/plugins/moment/moment.js"></script>
+     	<script src="../assets/plugins/timepicker/bootstrap-timepicker.min.js"></script>
+     	<script src="../assets/plugins/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+     	<script src="../assets/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+     	<script src="../assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="../assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript"></script>
+
+        <!-- App js -->
+        <script src="../assets/js/jquery.core.js"></script>
+        <script src="../assets/js/jquery.app.js"></script>
+     
+
+        <!-- copied scripts -->
+        <script src="../Scripts/jquery.signalR-2.2.0.js"></script>
+        <script src="../Scripts/underscore-min.js"></script>
+
+        <!--Reference the auto-generated SignalR hub script. -->
+        <script src="../signalr/hubs"></script>
+        <script src="../js/index.js" type="text/javascript"></script>
+        <script src="../js/navigation.js" type="text/javascript"></script>
+
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('form').parsley();
+                $('#datatable').dataTable();
+                $('#datatable-keytable').DataTable( { keys: true } );
+                $('#datatable-responsive').DataTable();
+                $('#datatable-scroller').DataTable( { ajax: "../assets/plugins/datatables/json/scroller-demo.json", deferRender: true, scrollY: 380, scrollCollapse: true, scroller: true } );
+                var table = $('#datatable-fixed-header').DataTable( { fixedHeader: true } );
+            } );
+            TableManageButtons.init();
+
+            jQuery(document).ready(function() {
+            // Time Picker
+            jQuery('#timepicker').timepicker({
+                defaultTIme : false
+            });
+            jQuery('#dept_time').timepicker({
+                showMeridian : false
+            });
+            jQuery('#arr_time').timepicker({
+                showMeridian : false
+            });
+            jQuery('#timepicker3').timepicker({
+                minuteStep : 15
+            });
+        });
+        </script>
+    </body>
+
+
+</html>
