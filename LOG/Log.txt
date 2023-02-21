@@ -1,0 +1,2674 @@
+city | 11/29/2021 5:02:20 PM
+admin | 11/29/2021 5:04:52 PM
+ | 11/29/2021 5:04:52 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_select(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 49 | 11/29/2021 5:04:52 PM
+city | 11/29/2021 5:04:58 PM
+admin | 11/29/2021 5:06:14 PM
+admin | 11/29/2021 5:06:17 PM
+city | 11/29/2021 5:06:22 PM
+city | 11/29/2021 5:06:27 PM
+admin | 11/29/2021 5:07:20 PM
+city | 11/29/2021 5:07:29 PM
+LOAD COUNTRY | 11/29/2021 5:07:29 PM
+admin | 11/29/2021 5:08:28 PM
+flight | 11/29/2021 5:08:37 PM
+city | 11/29/2021 5:08:39 PM
+LOAD COUNTRY | 11/29/2021 5:08:39 PM
+city | 11/29/2021 5:09:12 PM
+LOAD COUNTRY | 11/29/2021 5:09:12 PM
+admin | 11/29/2021 5:09:33 PM
+country | 11/29/2021 5:09:36 PM
+city | 11/29/2021 5:09:38 PM
+LOAD COUNTRY | 11/29/2021 5:09:38 PM
+country | 11/29/2021 5:09:40 PM
+country | 11/29/2021 5:09:48 PM
+Cannot insert duplicate key row in object 'dbo.COUNTRY' with unique index 'IX_COUNTRY'. The duplicate key value is (Japan).
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:09:48 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:09:48 PM
+country | 11/29/2021 5:09:48 PM
+country | 11/29/2021 5:11:13 PM
+city | 11/29/2021 5:11:15 PM
+LOAD COUNTRY | 11/29/2021 5:11:15 PM
+airport | 11/29/2021 5:11:18 PM
+admin | 11/29/2021 5:17:28 PM
+airplane | 11/29/2021 5:17:32 PM
+airport | 11/29/2021 5:17:34 PM
+airport | 11/29/2021 5:17:40 PM
+city | 11/29/2021 5:17:41 PM
+LOAD COUNTRY | 11/29/2021 5:17:41 PM
+country | 11/29/2021 5:17:46 PM
+city | 11/29/2021 5:21:48 PM
+LOAD COUNTRY | 11/29/2021 5:21:48 PM
+city | 11/29/2021 5:22:07 PM
+String or binary data would be truncated.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:22:07 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:22:07 PM
+city | 11/29/2021 5:22:07 PM
+city | 11/29/2021 5:22:30 PM
+city | 11/29/2021 5:22:31 PM
+city | 11/29/2021 5:22:42 PM
+city | 11/29/2021 5:22:43 PM
+city | 11/29/2021 5:22:51 PM
+city | 11/29/2021 5:22:52 PM
+city | 11/29/2021 5:22:54 PM
+city | 11/29/2021 5:22:55 PM
+country | 11/29/2021 5:22:58 PM
+country | 11/29/2021 5:23:05 PM
+country | 11/29/2021 5:23:06 PM
+country | 11/29/2021 5:23:07 PM
+country | 11/29/2021 5:23:08 PM
+city | 11/29/2021 5:23:26 PM
+LOAD COUNTRY | 11/29/2021 5:23:26 PM
+country | 11/29/2021 5:23:28 PM
+airport | 11/29/2021 5:23:29 PM
+admin | 11/29/2021 5:32:51 PM
+airport | 11/29/2021 5:33:49 PM
+LOAD CITY | 11/29/2021 5:33:50 PM
+admin | 11/29/2021 5:36:05 PM
+country | 11/29/2021 5:36:10 PM
+city | 11/29/2021 5:36:12 PM
+LOAD COUNTRY | 11/29/2021 5:36:12 PM
+airport | 11/29/2021 5:36:15 PM
+LOAD CITY | 11/29/2021 5:36:15 PM
+airport | 11/29/2021 5:36:47 PM
+String or binary data would be truncated.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:36:47 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:36:47 PM
+airport | 11/29/2021 5:36:47 PM
+airport | 11/29/2021 5:39:27 PM
+airport | 11/29/2021 5:39:28 PM
+country | 11/29/2021 5:39:44 PM
+city | 11/29/2021 5:39:46 PM
+LOAD COUNTRY | 11/29/2021 5:39:46 PM
+airplane | 11/29/2021 5:40:10 PM
+city | 11/29/2021 5:41:36 PM
+LOAD COUNTRY | 11/29/2021 5:41:36 PM
+airport | 11/29/2021 5:41:37 PM
+LOAD CITY | 11/29/2021 5:41:37 PM
+airport | 11/29/2021 5:41:43 PM
+LOAD CITY | 11/29/2021 5:41:43 PM
+city | 11/29/2021 5:41:48 PM
+LOAD COUNTRY | 11/29/2021 5:41:48 PM
+city | 11/29/2021 5:41:53 PM
+LOAD COUNTRY | 11/29/2021 5:41:53 PM
+airport | 11/29/2021 5:41:57 PM
+LOAD CITY | 11/29/2021 5:41:57 PM
+city | 11/29/2021 5:42:02 PM
+LOAD COUNTRY | 11/29/2021 5:42:02 PM
+airport | 11/29/2021 5:42:06 PM
+LOAD CITY | 11/29/2021 5:42:06 PM
+city | 11/29/2021 5:42:07 PM
+LOAD COUNTRY | 11/29/2021 5:42:07 PM
+airport | 11/29/2021 5:42:17 PM
+LOAD CITY | 11/29/2021 5:42:17 PM
+city | 11/29/2021 5:42:18 PM
+LOAD COUNTRY | 11/29/2021 5:42:18 PM
+airport | 11/29/2021 5:42:21 PM
+LOAD CITY | 11/29/2021 5:42:21 PM
+city | 11/29/2021 5:42:22 PM
+LOAD COUNTRY | 11/29/2021 5:42:22 PM
+airport | 11/29/2021 5:42:24 PM
+LOAD CITY | 11/29/2021 5:42:24 PM
+city | 11/29/2021 5:42:25 PM
+LOAD COUNTRY | 11/29/2021 5:42:25 PM
+airport | 11/29/2021 5:42:26 PM
+LOAD CITY | 11/29/2021 5:42:26 PM
+city | 11/29/2021 5:42:28 PM
+LOAD COUNTRY | 11/29/2021 5:42:28 PM
+city | 11/29/2021 5:42:31 PM
+LOAD COUNTRY | 11/29/2021 5:42:31 PM
+city | 11/29/2021 5:42:36 PM
+LOAD COUNTRY | 11/29/2021 5:42:36 PM
+airport | 11/29/2021 5:42:40 PM
+LOAD CITY | 11/29/2021 5:42:40 PM
+airport | 11/29/2021 5:42:43 PM
+airport | 11/29/2021 5:42:44 PM
+city | 11/29/2021 5:43:01 PM
+LOAD COUNTRY | 11/29/2021 5:43:01 PM
+city | 11/29/2021 5:43:05 PM
+city | 11/29/2021 5:43:07 PM
+city | 11/29/2021 5:43:37 PM
+city | 11/29/2021 5:43:38 PM
+city | 11/29/2021 5:43:41 PM
+city | 11/29/2021 5:43:42 PM
+airplane | 11/29/2021 5:44:05 PM
+airport | 11/29/2021 5:44:08 PM
+LOAD CITY | 11/29/2021 5:44:08 PM
+city | 11/29/2021 5:44:10 PM
+LOAD COUNTRY | 11/29/2021 5:44:10 PM
+country | 11/29/2021 5:44:11 PM
+flight | 11/29/2021 5:44:11 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:44:35 PM
+LOAD PILOT RATING | 11/29/2021 5:45:44 PM
+LOAD PILOT RATING | 11/29/2021 5:45:47 PM
+LOAD PILOT RATING | 11/29/2021 5:46:56 PM
+flight | 11/29/2021 5:47:03 PM
+Error converting data type nvarchar to numeric. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:47:03 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:47:03 PM
+flight | 11/29/2021 5:47:03 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:49:05 PM
+flight | 11/29/2021 5:49:07 PM
+Error converting data type nvarchar to numeric. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:49:07 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:49:07 PM
+flight | 11/29/2021 5:49:07 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:49:27 PM
+flight | 11/29/2021 5:49:33 PM
+flight | 11/29/2021 5:49:34 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:49:50 PM
+flight | 11/29/2021 5:49:52 PM
+flight | 11/29/2021 5:49:53 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:50:03 PM
+flight | 11/29/2021 5:50:04 PM
+flight | 11/29/2021 5:50:05 PM
+admin | 11/29/2021 5:52:30 PM
+country | 11/29/2021 5:52:36 PM
+flight | 11/29/2021 5:52:38 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:52:56 PM
+LOAD PILOT RATING | 11/29/2021 5:53:18 PM
+LOAD PILOT RATING | 11/29/2021 5:53:21 PM
+flight | 11/29/2021 5:53:25 PM
+Error converting data type nvarchar to numeric. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:53:25 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:53:25 PM
+flight | 11/29/2021 5:53:25 PM
+flight | 11/29/2021 5:53:30 PM
+Error converting data type nvarchar to numeric. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:53:30 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:53:30 PM
+flight | 11/29/2021 5:53:30 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:54:10 PM
+flight | 11/29/2021 5:54:11 PM
+flight | 11/29/2021 5:54:13 PM
+admin | 11/29/2021 5:54:46 PM
+flight | 11/29/2021 5:54:48 PM
+FLIGHT DETAILS SELECT | 11/29/2021 5:54:54 PM
+LOAD PILOT RATING | 11/29/2021 5:55:11 PM
+flight | 11/29/2021 5:55:16 PM
+Error converting data type nvarchar to numeric. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\DAL.vb:line 20 | 11/29/2021 5:55:16 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 5:55:16 PM
+flight | 11/29/2021 5:55:16 PM
+admin | 11/29/2021 5:57:08 PM
+flight | 11/29/2021 5:58:24 PM
+admin | 11/29/2021 5:58:34 PM
+flight | 11/29/2021 5:59:11 PM
+admin | 11/29/2021 6:06:07 PM
+admin | 11/29/2021 6:06:29 PM
+dashboard | 11/29/2021 6:06:38 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:06:38 PM
+flight | 11/29/2021 6:07:03 PM
+FLIGHT DETAILS SELECT | 11/29/2021 6:08:53 PM
+airplane | 11/29/2021 6:08:56 PM
+admin | 11/29/2021 6:09:57 PM
+flight | 11/29/2021 6:10:05 PM
+airport | 11/29/2021 6:10:10 PM
+LOAD CITY | 11/29/2021 6:10:10 PM
+airport | 11/29/2021 6:10:45 PM
+airport | 11/29/2021 6:10:46 PM
+airport | 11/29/2021 6:10:52 PM
+airport | 11/29/2021 6:10:53 PM
+admin | 11/29/2021 6:11:00 PM
+system users | 11/29/2021 6:11:07 PM
+admin | 11/29/2021 6:11:16 PM
+system users | 11/29/2021 6:11:17 PM
+system users | 11/29/2021 6:11:18 PM
+browse_airplane | 11/29/2021 6:11:22 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:11:22 PM
+browse_airplane | 11/29/2021 6:11:43 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:11:43 PM
+browse_booking | 11/29/2021 6:12:22 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:12:22 PM
+browse_booking | 11/29/2021 6:12:35 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:12:35 PM
+browse_booking | 11/29/2021 6:15:01 PM
+admin | 11/29/2021 6:23:21 PM
+browse_booking | 11/29/2021 6:23:38 PM
+browse_passengers | 11/29/2021 6:23:44 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:23:44 PM
+browse_booking | 11/29/2021 6:23:46 PM
+browse_airplane | 11/29/2021 6:23:53 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:23:53 PM
+browse_booking | 11/29/2021 6:23:55 PM
+browse_passengers | 11/29/2021 6:23:56 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:23:56 PM
+browse_booking | 11/29/2021 6:23:57 PM
+browse_airplane | 11/29/2021 6:23:57 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:23:57 PM
+browse_booking | 11/29/2021 6:24:01 PM
+browse_passengers | 11/29/2021 6:25:41 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:25:41 PM
+admin | 11/29/2021 6:45:39 PM
+browse_passengers | 11/29/2021 6:45:46 PM
+admin | 11/29/2021 6:52:24 PM
+browse_passengers | 11/29/2021 6:52:29 PM
+browse_booking | 11/29/2021 6:52:43 PM
+browse_passengers | 11/29/2021 6:52:44 PM
+browse_passengers | 11/29/2021 6:52:46 PM
+browse_booking | 11/29/2021 6:52:47 PM
+browse_airplane | 11/29/2021 6:52:48 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:52:48 PM
+admin | 11/29/2021 6:53:18 PM
+browse_passengers | 11/29/2021 6:53:28 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:53:28 PM
+browse_airplane | 11/29/2021 6:53:31 PM
+browse_booking | 11/29/2021 6:53:42 PM
+admin | 11/29/2021 6:54:28 PM
+browse_booking | 11/29/2021 6:54:31 PM
+admin | 11/29/2021 6:55:19 PM
+browse_passengers | 11/29/2021 6:55:26 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:55:26 PM
+browse_booking | 11/29/2021 6:59:21 PM
+browse_passengers | 11/29/2021 6:59:30 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:59:30 PM
+browse_booking | 11/29/2021 6:59:31 PM
+browse_airplane | 11/29/2021 6:59:32 PM
+browse_booking | 11/29/2021 6:59:32 PM
+browse_passengers | 11/29/2021 6:59:33 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 6:59:33 PM
+admin | 11/29/2021 7:45:13 PM
+browse_passengers | 11/29/2021 7:46:13 PM
+browse_airplane | 11/29/2021 7:56:35 PM
+browse_booking | 11/29/2021 7:56:38 PM
+admin | 11/29/2021 7:58:02 PM
+browse_passengers | 11/29/2021 7:58:20 PM
+admin | 11/29/2021 8:04:08 PM
+admin | 11/29/2021 8:04:20 PM
+airplane details | 11/29/2021 8:04:46 PM
+airplane details | 11/29/2021 8:05:00 PM
+booking details | 11/29/2021 8:05:00 PM
+passengers and bookings | 11/29/2021 8:05:05 PM
+booking details | 11/29/2021 8:05:28 PM
+admin | 11/29/2021 8:15:24 PM
+airplane details | 11/29/2021 8:15:31 PM
+booking details | 11/29/2021 8:15:33 PM
+booking details | 11/29/2021 8:16:09 PM
+airplane details | 11/29/2021 8:16:10 PM
+booking details | 11/29/2021 8:16:11 PM
+booking details | 11/29/2021 8:16:33 PM
+booking details | 11/29/2021 8:17:02 PM
+booking details | 11/29/2021 8:18:03 PM
+admin | 11/29/2021 8:18:44 PM
+passengers and bookings | 11/29/2021 8:24:46 PM
+airplane details | 11/29/2021 8:24:49 PM
+booking details | 11/29/2021 8:24:50 PM
+passengers and bookings | 11/29/2021 8:24:52 PM
+airplane details | 11/29/2021 8:24:55 PM
+booking details | 11/29/2021 8:25:03 PM
+airplane details | 11/29/2021 8:31:53 PM
+airplane details | 11/29/2021 8:31:56 PM
+airplane details | 11/29/2021 8:31:58 PM
+booking details | 11/29/2021 8:32:00 PM
+passengers and bookings | 11/29/2021 8:32:07 PM
+dashboard | 11/29/2021 8:32:31 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 8:32:31 PM
+admin | 11/29/2021 8:32:38 PM
+admin | 11/29/2021 8:33:18 PM
+admin | 11/29/2021 8:33:20 PM
+dashboard | 11/29/2021 8:33:21 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 8:33:21 PM
+admin | 11/29/2021 8:33:27 PM
+admin | 11/29/2021 8:34:13 PM
+admin | 11/29/2021 8:34:24 PM
+dashboard | 11/29/2021 8:34:25 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 8:34:25 PM
+admin | 11/29/2021 8:34:35 PM
+admin | 11/29/2021 8:34:37 PM
+admin | 11/29/2021 8:34:41 PM
+admin | 11/29/2021 8:40:38 PM
+admin | 11/29/2021 8:42:37 PM
+admin | 11/29/2021 9:02:36 PM
+admin | 11/29/2021 9:03:45 PM
+admin | 11/29/2021 9:04:21 PM
+admin | 11/29/2021 9:07:18 PM
+admin | 11/29/2021 9:08:00 PM
+admin | 11/29/2021 9:17:07 PM
+admin | 11/29/2021 9:17:09 PM
+admin | 11/29/2021 9:27:40 PM
+admin | 11/29/2021 9:42:19 PM
+admin | 11/29/2021 9:42:48 PM
+admin | 11/29/2021 9:44:17 PM
+admin | 11/29/2021 9:44:40 PM
+admin | 11/29/2021 9:48:58 PM
+admin | 11/29/2021 9:49:51 PM
+system users | 11/29/2021 9:49:51 PM
+airplane | 11/29/2021 9:49:53 PM
+airport | 11/29/2021 9:49:54 PM
+LOAD CITY | 11/29/2021 9:49:54 PM
+city | 11/29/2021 9:49:54 PM
+LOAD COUNTRY | 11/29/2021 9:49:54 PM
+country | 11/29/2021 9:49:55 PM
+flight | 11/29/2021 9:49:55 PM
+passengers and bookings | 11/29/2021 9:49:58 PM
+booking details | 11/29/2021 9:49:58 PM
+airplane details | 11/29/2021 9:50:01 PM
+airplane | 11/29/2021 9:50:04 PM
+airport | 11/29/2021 9:50:05 PM
+LOAD CITY | 11/29/2021 9:50:05 PM
+city | 11/29/2021 9:50:07 PM
+LOAD COUNTRY | 11/29/2021 9:50:07 PM
+country | 11/29/2021 9:50:08 PM
+flight | 11/29/2021 9:50:10 PM
+staff | 11/29/2021 9:50:12 PM
+flight | 11/29/2021 9:50:14 PM
+staff | 11/29/2021 9:50:15 PM
+airplane | 11/29/2021 9:50:17 PM
+admin | 11/29/2021 9:50:19 PM
+system users | 11/29/2021 9:50:20 PM
+dashboard | 11/29/2021 9:50:21 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/29/2021 9:50:21 PM
+admin | 11/29/2021 9:50:33 PM
+admin | 11/30/2021 4:32:05 AM
+admin | 11/30/2021 4:39:10 AM
+admin | 11/30/2021 5:31:21 AM
+flight | 11/30/2021 5:31:23 AM
+admin | 11/30/2021 5:36:20 AM
+staff | 11/30/2021 5:36:28 AM
+flight | 11/30/2021 5:36:30 AM
+flight | 11/30/2021 5:36:34 AM
+admin | 11/30/2021 5:36:44 AM
+flight | 11/30/2021 5:37:03 AM
+FLIGHT DETAILS SELECT | 11/30/2021 5:37:03 AM
+LOAD PILOT RATING | 11/30/2021 5:38:11 AM
+LOAD PILOT RATING | 11/30/2021 5:38:56 AM
+flight | 11/30/2021 5:42:02 AM
+flight | 11/30/2021 5:42:03 AM
+admin | 11/30/2021 5:47:47 AM
+admin | 11/30/2021 5:48:32 AM
+admin | 11/30/2021 5:49:00 AM
+admin | 11/30/2021 5:58:11 AM
+USER SELECT | 11/30/2021 5:58:11 AM
+admin | 11/30/2021 5:58:14 AM
+USER SELECT | 11/30/2021 5:58:14 AM
+admin | 11/30/2021 5:58:16 AM
+USER SELECT | 11/30/2021 5:58:16 AM
+admin | 11/30/2021 5:58:41 AM
+USER SELECT | 11/30/2021 5:58:41 AM
+admin | 11/30/2021 5:58:48 AM
+USER SELECT | 11/30/2021 5:58:48 AM
+admin | 11/30/2021 5:59:25 AM
+USER SELECT | 11/30/2021 5:59:25 AM
+admin | 11/30/2021 6:02:17 AM
+USER SELECT | 11/30/2021 6:02:18 AM
+admin | 11/30/2021 6:03:28 AM
+USER SELECT | 11/30/2021 6:03:28 AM
+admin | 11/30/2021 6:05:32 AM
+USER SELECT | 11/30/2021 6:05:32 AM
+admin | 11/30/2021 6:05:49 AM
+USER SELECT | 11/30/2021 6:05:49 AM
+admin | 11/30/2021 6:06:41 AM
+USER SELECT | 11/30/2021 6:06:41 AM
+admin | 11/30/2021 6:10:29 AM
+USER SELECT | 11/30/2021 6:10:29 AM
+admin | 11/30/2021 6:25:30 AM
+USER SELECT | 11/30/2021 6:25:30 AM
+admin | 11/30/2021 6:29:52 AM
+USER SELECT | 11/30/2021 6:29:52 AM
+admin | 11/30/2021 6:30:17 AM
+USER SELECT | 11/30/2021 6:30:17 AM
+admin | 11/30/2021 7:38:13 AM
+USER SELECT | 11/30/2021 7:38:13 AM
+admin | 11/30/2021 7:39:31 AM
+USER SELECT | 11/30/2021 7:39:31 AM
+admin | 11/30/2021 7:47:04 AM
+USER SELECT | 11/30/2021 7:47:04 AM
+admin | 11/30/2021 7:53:04 AM
+USER SELECT | 11/30/2021 7:53:04 AM
+admin | 11/30/2021 8:03:28 AM
+USER SELECT | 11/30/2021 8:03:28 AM
+admin | 11/30/2021 8:03:40 AM
+USER SELECT | 11/30/2021 8:03:40 AM
+admin | 11/30/2021 8:04:28 AM
+USER SELECT | 11/30/2021 8:04:28 AM
+admin | 11/30/2021 8:05:42 AM
+USER SELECT | 11/30/2021 8:05:42 AM
+admin | 11/30/2021 8:06:16 AM
+USER SELECT | 11/30/2021 8:06:16 AM
+admin | 11/30/2021 8:06:20 AM
+USER SELECT | 11/30/2021 8:06:20 AM
+admin | 11/30/2021 8:06:35 AM
+USER SELECT | 11/30/2021 8:06:35 AM
+admin | 11/30/2021 8:07:06 AM
+USER SELECT | 11/30/2021 8:07:06 AM
+admin | 11/30/2021 8:07:55 AM
+USER SELECT | 11/30/2021 8:07:55 AM
+admin | 11/30/2021 8:07:57 AM
+USER SELECT | 11/30/2021 8:07:57 AM
+admin | 11/30/2021 8:08:10 AM
+USER SELECT | 11/30/2021 8:08:10 AM
+admin | 11/30/2021 8:08:19 AM
+USER SELECT | 11/30/2021 8:08:19 AM
+admin | 11/30/2021 8:08:21 AM
+USER SELECT | 11/30/2021 8:08:21 AM
+admin | 11/30/2021 8:08:28 AM
+USER SELECT | 11/30/2021 8:08:28 AM
+admin | 11/30/2021 8:08:49 AM
+USER SELECT | 11/30/2021 8:08:49 AM
+admin | 11/30/2021 8:08:52 AM
+USER SELECT | 11/30/2021 8:08:52 AM
+admin | 11/30/2021 8:09:48 AM
+USER SELECT | 11/30/2021 8:09:48 AM
+admin | 11/30/2021 8:09:51 AM
+USER SELECT | 11/30/2021 8:09:51 AM
+admin | 11/30/2021 8:10:23 AM
+USER SELECT | 11/30/2021 8:10:23 AM
+admin | 11/30/2021 8:10:51 AM
+USER SELECT | 11/30/2021 8:10:51 AM
+admin | 11/30/2021 8:11:12 AM
+USER SELECT | 11/30/2021 8:11:12 AM
+admin | 11/30/2021 8:11:23 AM
+USER SELECT | 11/30/2021 8:11:23 AM
+admin | 11/30/2021 8:11:33 AM
+USER SELECT | 11/30/2021 8:11:33 AM
+admin | 11/30/2021 8:12:05 AM
+USER SELECT | 11/30/2021 8:12:05 AM
+admin | 11/30/2021 8:12:08 AM
+USER SELECT | 11/30/2021 8:12:08 AM
+admin | 11/30/2021 8:18:41 AM
+USER SELECT | 11/30/2021 8:18:41 AM
+admin | 11/30/2021 8:21:26 AM
+USER SELECT | 11/30/2021 8:21:26 AM
+admin | 11/30/2021 8:22:58 AM
+USER SELECT | 11/30/2021 8:22:58 AM
+admin | 11/30/2021 8:23:00 AM
+USER SELECT | 11/30/2021 8:23:00 AM
+Find Flight | 11/30/2021 8:23:32 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_select(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 49 | 11/30/2021 8:23:32 AM
+admin | 11/30/2021 8:36:22 AM
+USER SELECT | 11/30/2021 8:36:22 AM
+admin | 11/30/2021 8:38:50 AM
+USER SELECT | 11/30/2021 8:38:51 AM
+admin | 11/30/2021 8:48:49 AM
+USER SELECT | 11/30/2021 8:48:49 AM
+Find Flight | 11/30/2021 8:49:04 AM
+Find Flight | 11/30/2021 8:52:31 AM
+admin | 11/30/2021 8:58:29 AM
+USER SELECT | 11/30/2021 8:58:29 AM
+Find Flight | 11/30/2021 8:58:40 AM
+Find Flight | 11/30/2021 8:59:15 AM
+Find Flight | 11/30/2021 8:59:41 AM
+Find Flight | 11/30/2021 9:00:03 AM
+Find Flight | 11/30/2021 9:00:26 AM
+Find Flight | 11/30/2021 9:00:49 AM
+Find Flight | 11/30/2021 9:01:08 AM
+Find Flight | 11/30/2021 9:01:13 AM
+Find Flight | 11/30/2021 9:01:33 AM
+Find Flight | 11/30/2021 9:01:49 AM
+admin | 11/30/2021 9:02:06 AM
+USER SELECT | 11/30/2021 9:02:07 AM
+Find Flight | 11/30/2021 9:02:17 AM
+admin | 11/30/2021 9:15:20 AM
+USER SELECT | 11/30/2021 9:15:20 AM
+admin | 11/30/2021 9:15:35 AM
+USER SELECT | 11/30/2021 9:15:35 AM
+admin | 11/30/2021 9:15:46 AM
+USER SELECT | 11/30/2021 9:15:46 AM
+admin | 11/30/2021 9:16:25 AM
+USER SELECT | 11/30/2021 9:16:26 AM
+admin | 11/30/2021 9:29:52 AM
+USER SELECT | 11/30/2021 9:29:52 AM
+Find Flight | 11/30/2021 9:30:08 AM
+admin | 11/30/2021 9:32:03 AM
+USER SELECT | 11/30/2021 9:32:03 AM
+admin | 11/30/2021 9:35:13 AM
+USER SELECT | 11/30/2021 9:35:14 AM
+admin | 11/30/2021 9:41:20 AM
+USER SELECT | 11/30/2021 9:41:21 AM
+admin | 11/30/2021 9:41:26 AM
+USER SELECT | 11/30/2021 9:41:26 AM
+Find Flight | 11/30/2021 9:41:32 AM
+Find Flight | 11/30/2021 9:42:07 AM
+admin | 11/30/2021 9:42:44 AM
+USER SELECT | 11/30/2021 9:42:44 AM
+Find Flight | 11/30/2021 9:43:09 AM
+admin | 11/30/2021 9:43:10 AM
+USER SELECT | 11/30/2021 9:43:10 AM
+admin | 11/30/2021 9:47:50 AM
+USER SELECT | 11/30/2021 9:47:51 AM
+admin | 11/30/2021 9:47:51 AM
+USER SELECT | 11/30/2021 9:47:51 AM
+admin | 11/30/2021 9:47:51 AM
+USER SELECT | 11/30/2021 9:47:51 AM
+admin | 11/30/2021 9:47:51 AM
+USER SELECT | 11/30/2021 9:47:52 AM
+admin | 11/30/2021 9:47:52 AM
+USER SELECT | 11/30/2021 9:47:52 AM
+admin | 11/30/2021 9:47:52 AM
+USER SELECT | 11/30/2021 9:47:52 AM
+admin | 11/30/2021 9:47:52 AM
+USER SELECT | 11/30/2021 9:47:52 AM
+admin | 11/30/2021 9:47:52 AM
+USER SELECT | 11/30/2021 9:47:53 AM
+admin | 11/30/2021 9:47:53 AM
+USER SELECT | 11/30/2021 9:47:53 AM
+admin | 11/30/2021 9:47:53 AM
+USER SELECT | 11/30/2021 9:47:53 AM
+admin | 11/30/2021 9:47:53 AM
+USER SELECT | 11/30/2021 9:47:53 AM
+admin | 11/30/2021 9:47:53 AM
+USER SELECT | 11/30/2021 9:47:53 AM
+admin | 11/30/2021 9:47:54 AM
+USER SELECT | 11/30/2021 9:47:54 AM
+admin | 11/30/2021 9:47:54 AM
+USER SELECT | 11/30/2021 9:47:54 AM
+admin | 11/30/2021 9:47:54 AM
+USER SELECT | 11/30/2021 9:47:54 AM
+admin | 11/30/2021 9:47:54 AM
+USER SELECT | 11/30/2021 9:47:55 AM
+admin | 11/30/2021 9:47:55 AM
+USER SELECT | 11/30/2021 9:47:55 AM
+admin | 11/30/2021 9:47:55 AM
+USER SELECT | 11/30/2021 9:47:55 AM
+admin | 11/30/2021 9:47:55 AM
+USER SELECT | 11/30/2021 9:47:55 AM
+admin | 11/30/2021 9:47:56 AM
+USER SELECT | 11/30/2021 9:47:56 AM
+admin | 11/30/2021 9:47:56 AM
+USER SELECT | 11/30/2021 9:47:56 AM
+admin | 11/30/2021 9:47:56 AM
+USER SELECT | 11/30/2021 9:47:56 AM
+admin | 11/30/2021 9:47:56 AM
+USER SELECT | 11/30/2021 9:47:56 AM
+admin | 11/30/2021 9:47:57 AM
+USER SELECT | 11/30/2021 9:47:57 AM
+admin | 11/30/2021 9:47:57 AM
+USER SELECT | 11/30/2021 9:47:57 AM
+admin | 11/30/2021 9:47:57 AM
+USER SELECT | 11/30/2021 9:47:57 AM
+admin | 11/30/2021 9:47:57 AM
+USER SELECT | 11/30/2021 9:47:57 AM
+admin | 11/30/2021 9:47:57 AM
+USER SELECT | 11/30/2021 9:47:58 AM
+admin | 11/30/2021 9:47:58 AM
+USER SELECT | 11/30/2021 9:47:58 AM
+admin | 11/30/2021 9:47:58 AM
+USER SELECT | 11/30/2021 9:47:58 AM
+admin | 11/30/2021 9:47:58 AM
+USER SELECT | 11/30/2021 9:47:58 AM
+admin | 11/30/2021 9:47:58 AM
+USER SELECT | 11/30/2021 9:47:59 AM
+admin | 11/30/2021 9:47:59 AM
+USER SELECT | 11/30/2021 9:47:59 AM
+admin | 11/30/2021 9:47:59 AM
+USER SELECT | 11/30/2021 9:47:59 AM
+admin | 11/30/2021 9:47:59 AM
+USER SELECT | 11/30/2021 9:47:59 AM
+admin | 11/30/2021 9:48:03 AM
+USER SELECT | 11/30/2021 9:48:04 AM
+admin | 11/30/2021 9:48:18 AM
+USER SELECT | 11/30/2021 9:48:18 AM
+admin | 11/30/2021 9:48:55 AM
+USER SELECT | 11/30/2021 9:48:55 AM
+admin | 11/30/2021 9:49:14 AM
+USER SELECT | 11/30/2021 9:49:15 AM
+admin | 11/30/2021 9:50:09 AM
+USER SELECT | 11/30/2021 9:50:09 AM
+Find Flight | 11/30/2021 9:50:29 AM
+admin | 11/30/2021 9:50:30 AM
+USER SELECT | 11/30/2021 9:50:30 AM
+admin | 11/30/2021 9:51:00 AM
+USER SELECT | 11/30/2021 9:51:00 AM
+admin | 11/30/2021 9:51:29 AM
+USER SELECT | 11/30/2021 9:51:29 AM
+admin | 11/30/2021 9:53:41 AM
+USER SELECT | 11/30/2021 9:53:41 AM
+admin | 11/30/2021 9:53:43 AM
+USER SELECT | 11/30/2021 9:53:43 AM
+admin | 11/30/2021 9:53:45 AM
+USER SELECT | 11/30/2021 9:53:46 AM
+admin | 11/30/2021 9:54:04 AM
+USER SELECT | 11/30/2021 9:54:04 AM
+admin | 11/30/2021 9:54:06 AM
+USER SELECT | 11/30/2021 9:54:06 AM
+admin | 11/30/2021 10:04:42 AM
+USER SELECT | 11/30/2021 10:04:42 AM
+admin | 11/30/2021 10:11:02 AM
+USER SELECT | 11/30/2021 10:11:03 AM
+admin | 11/30/2021 10:11:07 AM
+USER SELECT | 11/30/2021 10:11:07 AM
+Find Flight | 11/30/2021 10:11:22 AM
+admin | 11/30/2021 10:11:22 AM
+USER SELECT | 11/30/2021 10:11:22 AM
+admin | 11/30/2021 10:58:13 AM
+USER SELECT | 11/30/2021 10:58:13 AM
+admin | 11/30/2021 11:03:52 AM
+USER SELECT | 11/30/2021 11:03:52 AM
+admin | 11/30/2021 11:03:53 AM
+USER SELECT | 11/30/2021 11:03:53 AM
+admin | 11/30/2021 11:04:03 AM
+USER SELECT | 11/30/2021 11:04:03 AM
+admin | 11/30/2021 11:04:06 AM
+USER SELECT | 11/30/2021 11:04:06 AM
+admin | 11/30/2021 11:04:34 AM
+USER SELECT | 11/30/2021 11:04:34 AM
+Find Flight | 11/30/2021 11:25:55 AM
+admin | 11/30/2021 11:25:56 AM
+USER SELECT | 11/30/2021 11:25:56 AM
+admin | 11/30/2021 11:26:48 AM
+USER SELECT | 11/30/2021 11:26:48 AM
+Find Flight | 11/30/2021 11:26:54 AM
+admin | 11/30/2021 11:26:54 AM
+USER SELECT | 11/30/2021 11:26:54 AM
+admin | 11/30/2021 11:27:42 AM
+USER SELECT | 11/30/2021 11:27:42 AM
+Find Flight | 11/30/2021 11:27:50 AM
+admin | 11/30/2021 11:27:50 AM
+USER SELECT | 11/30/2021 11:27:50 AM
+admin | 11/30/2021 11:28:28 AM
+USER SELECT | 11/30/2021 11:28:28 AM
+Find Flight | 11/30/2021 11:29:11 AM
+admin | 11/30/2021 11:29:12 AM
+USER SELECT | 11/30/2021 11:29:12 AM
+admin | 11/30/2021 11:29:14 AM
+USER SELECT | 11/30/2021 11:29:14 AM
+Find Flight | 11/30/2021 11:29:25 AM
+admin | 11/30/2021 11:29:25 AM
+USER SELECT | 11/30/2021 11:29:26 AM
+admin | 11/30/2021 11:31:05 AM
+USER SELECT | 11/30/2021 11:31:06 AM
+admin | 11/30/2021 11:31:13 AM
+USER SELECT | 11/30/2021 11:31:13 AM
+admin | 11/30/2021 11:31:48 AM
+USER SELECT | 11/30/2021 11:31:48 AM
+admin | 11/30/2021 11:32:28 AM
+USER SELECT | 11/30/2021 11:32:28 AM
+admin | 11/30/2021 11:33:24 AM
+USER SELECT | 11/30/2021 11:33:24 AM
+admin | 11/30/2021 11:34:25 AM
+USER SELECT | 11/30/2021 11:34:25 AM
+admin | 11/30/2021 11:37:56 AM
+USER SELECT | 11/30/2021 11:37:56 AM
+admin | 11/30/2021 11:38:20 AM
+USER SELECT | 11/30/2021 11:38:20 AM
+admin | 11/30/2021 11:40:41 AM
+USER SELECT | 11/30/2021 11:40:41 AM
+admin | 11/30/2021 11:40:43 AM
+USER SELECT | 11/30/2021 11:40:43 AM
+admin | 11/30/2021 11:42:19 AM
+USER SELECT | 11/30/2021 11:42:19 AM
+admin | 11/30/2021 11:42:32 AM
+USER SELECT | 11/30/2021 11:42:32 AM
+admin | 11/30/2021 11:43:33 AM
+USER SELECT | 11/30/2021 11:43:33 AM
+admin | 11/30/2021 11:43:58 AM
+USER SELECT | 11/30/2021 11:43:58 AM
+admin | 11/30/2021 11:44:00 AM
+USER SELECT | 11/30/2021 11:44:00 AM
+Find Flight | 11/30/2021 11:45:32 AM
+admin | 11/30/2021 11:45:32 AM
+USER SELECT | 11/30/2021 11:45:32 AM
+admin | 11/30/2021 11:47:57 AM
+USER SELECT | 11/30/2021 11:47:58 AM
+admin | 11/30/2021 11:48:15 AM
+USER SELECT | 11/30/2021 11:48:15 AM
+admin | 11/30/2021 11:48:24 AM
+USER SELECT | 11/30/2021 11:48:24 AM
+admin | 11/30/2021 11:48:29 AM
+USER SELECT | 11/30/2021 11:48:29 AM
+admin | 11/30/2021 11:48:30 AM
+USER SELECT | 11/30/2021 11:48:30 AM
+admin | 11/30/2021 11:48:33 AM
+USER SELECT | 11/30/2021 11:48:33 AM
+admin | 11/30/2021 11:50:05 AM
+USER SELECT | 11/30/2021 11:50:05 AM
+admin | 11/30/2021 11:50:36 AM
+USER SELECT | 11/30/2021 11:50:36 AM
+admin | 11/30/2021 11:50:47 AM
+USER SELECT | 11/30/2021 11:50:47 AM
+admin | 11/30/2021 11:50:58 AM
+USER SELECT | 11/30/2021 11:50:58 AM
+admin | 11/30/2021 11:53:08 AM
+USER SELECT | 11/30/2021 11:53:08 AM
+admin | 11/30/2021 11:54:05 AM
+USER SELECT | 11/30/2021 11:54:05 AM
+admin | 11/30/2021 12:00:58 PM
+USER SELECT | 11/30/2021 12:00:59 PM
+admin | 11/30/2021 12:13:53 PM
+USER SELECT | 11/30/2021 12:13:53 PM
+admin | 11/30/2021 12:51:32 PM
+USER SELECT | 11/30/2021 12:51:32 PM
+admin | 11/30/2021 12:52:26 PM
+USER SELECT | 11/30/2021 12:52:27 PM
+admin | 11/30/2021 12:55:08 PM
+USER SELECT | 11/30/2021 12:55:09 PM
+admin | 11/30/2021 1:00:30 PM
+USER SELECT | 11/30/2021 1:00:30 PM
+admin | 11/30/2021 1:11:11 PM
+USER SELECT | 11/30/2021 1:11:11 PM
+admin | 11/30/2021 1:26:20 PM
+USER SELECT | 11/30/2021 1:26:20 PM
+admin | 11/30/2021 1:27:50 PM
+USER SELECT | 11/30/2021 1:27:51 PM
+admin | 11/30/2021 1:27:56 PM
+USER SELECT | 11/30/2021 1:27:56 PM
+admin | 11/30/2021 1:32:39 PM
+USER SELECT | 11/30/2021 1:32:39 PM
+admin | 11/30/2021 1:45:45 PM
+USER SELECT | 11/30/2021 1:45:45 PM
+admin | 11/30/2021 2:06:21 PM
+USER SELECT | 11/30/2021 2:06:21 PM
+admin | 11/30/2021 2:12:49 PM
+USER SELECT | 11/30/2021 2:12:50 PM
+admin | 11/30/2021 2:16:18 PM
+USER SELECT | 11/30/2021 2:16:18 PM
+admin | 11/30/2021 2:18:39 PM
+USER SELECT | 11/30/2021 2:18:39 PM
+admin | 11/30/2021 2:22:14 PM
+USER SELECT | 11/30/2021 2:22:14 PM
+admin | 11/30/2021 2:23:45 PM
+USER SELECT | 11/30/2021 2:23:45 PM
+admin | 11/30/2021 2:24:16 PM
+USER SELECT | 11/30/2021 2:24:16 PM
+admin | 11/30/2021 2:24:23 PM
+USER SELECT | 11/30/2021 2:24:23 PM
+Find Flight | 11/30/2021 2:25:04 PM
+admin | 11/30/2021 2:25:04 PM
+USER SELECT | 11/30/2021 2:25:04 PM
+admin | 11/30/2021 2:25:11 PM
+USER SELECT | 11/30/2021 2:25:11 PM
+admin | 11/30/2021 2:28:28 PM
+USER SELECT | 11/30/2021 2:28:28 PM
+admin | 11/30/2021 2:34:48 PM
+USER SELECT | 11/30/2021 2:34:48 PM
+admin | 11/30/2021 2:35:13 PM
+USER SELECT | 11/30/2021 2:35:13 PM
+admin | 11/30/2021 2:36:47 PM
+USER SELECT | 11/30/2021 2:36:47 PM
+admin | 11/30/2021 2:36:52 PM
+USER SELECT | 11/30/2021 2:36:52 PM
+admin | 11/30/2021 3:19:43 PM
+USER SELECT | 11/30/2021 3:19:43 PM
+admin | 11/30/2021 3:19:50 PM
+USER SELECT | 11/30/2021 3:19:50 PM
+Find Flight | 11/30/2021 3:20:23 PM
+Find Flight | 11/30/2021 3:20:30 PM
+admin | 11/30/2021 3:20:30 PM
+USER SELECT | 11/30/2021 3:20:30 PM
+admin | 11/30/2021 3:20:31 PM
+USER SELECT | 11/30/2021 3:20:31 PM
+admin | 11/30/2021 3:38:58 PM
+USER SELECT | 11/30/2021 3:38:58 PM
+admin | 11/30/2021 4:23:42 PM
+USER SELECT | 11/30/2021 4:23:43 PM
+admin | 11/30/2021 4:23:57 PM
+USER SELECT | 11/30/2021 4:23:58 PM
+admin | 11/30/2021 4:24:18 PM
+USER SELECT | 11/30/2021 4:24:18 PM
+admin | 11/30/2021 4:27:54 PM
+USER SELECT | 11/30/2021 4:27:54 PM
+admin | 11/30/2021 4:28:34 PM
+USER SELECT | 11/30/2021 4:28:34 PM
+admin | 11/30/2021 4:31:22 PM
+USER SELECT | 11/30/2021 4:31:22 PM
+admin | 11/30/2021 4:31:44 PM
+USER SELECT | 11/30/2021 4:31:44 PM
+admin | 11/30/2021 4:31:47 PM
+USER SELECT | 11/30/2021 4:31:47 PM
+ADMIN LOGIN | 11/30/2021 4:31:49 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_select(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 49 | 11/30/2021 4:31:49 PM
+admin | 11/30/2021 5:05:44 PM
+USER SELECT | 11/30/2021 5:05:44 PM
+admin | 11/30/2021 5:05:45 PM
+USER SELECT | 11/30/2021 5:05:45 PM
+ADMIN LOGIN | 11/30/2021 5:05:48 PM
+admin | 11/30/2021 5:05:50 PM
+USER SELECT | 11/30/2021 5:05:50 PM
+ADMIN LOGIN | 11/30/2021 5:06:28 PM
+admin | 11/30/2021 5:06:28 PM
+USER SELECT | 11/30/2021 5:06:28 PM
+admin | 11/30/2021 5:07:02 PM
+USER SELECT | 11/30/2021 5:07:02 PM
+ADMIN LOGIN | 11/30/2021 5:08:08 PM
+admin | 11/30/2021 5:08:09 PM
+USER SELECT | 11/30/2021 5:08:09 PM
+admin | 11/30/2021 5:09:24 PM
+USER SELECT | 11/30/2021 5:09:25 PM
+admin | 11/30/2021 5:09:28 PM
+USER SELECT | 11/30/2021 5:09:28 PM
+admin | 11/30/2021 5:09:36 PM
+USER SELECT | 11/30/2021 5:09:36 PM
+ADMIN LOGIN | 11/30/2021 5:10:22 PM
+admin | 11/30/2021 5:10:22 PM
+USER SELECT | 11/30/2021 5:10:22 PM
+admin | 11/30/2021 5:10:44 PM
+USER SELECT | 11/30/2021 5:10:44 PM
+admin | 11/30/2021 5:11:31 PM
+USER SELECT | 11/30/2021 5:11:32 PM
+admin | 11/30/2021 5:12:42 PM
+USER SELECT | 11/30/2021 5:12:43 PM
+admin | 11/30/2021 5:14:52 PM
+USER SELECT | 11/30/2021 5:14:52 PM
+ADMIN LOGIN | 11/30/2021 5:15:15 PM
+admin | 11/30/2021 5:15:15 PM
+USER SELECT | 11/30/2021 5:15:15 PM
+admin | 11/30/2021 5:15:27 PM
+USER SELECT | 11/30/2021 5:15:27 PM
+ADMIN LOGIN | 11/30/2021 5:15:30 PM
+admin | 11/30/2021 5:15:30 PM
+USER SELECT | 11/30/2021 5:15:31 PM
+admin | 11/30/2021 5:15:34 PM
+USER SELECT | 11/30/2021 5:15:34 PM
+ADMIN LOGIN | 11/30/2021 5:15:37 PM
+admin | 11/30/2021 5:15:39 PM
+USER SELECT | 11/30/2021 5:15:39 PM
+admin | 11/30/2021 5:16:55 PM
+USER SELECT | 11/30/2021 5:16:55 PM
+ADMIN LOGIN | 11/30/2021 5:16:57 PM
+ADMIN LOGIN | 11/30/2021 5:17:18 PM
+ADMIN LOGIN | 11/30/2021 5:17:31 PM
+ADMIN LOGIN | 11/30/2021 5:17:46 PM
+admin | 11/30/2021 5:18:27 PM
+USER SELECT | 11/30/2021 5:18:27 PM
+ADMIN LOGIN | 11/30/2021 5:18:41 PM
+admin | 11/30/2021 5:18:42 PM
+USER SELECT | 11/30/2021 5:18:42 PM
+admin | 11/30/2021 5:23:14 PM
+USER SELECT | 11/30/2021 5:23:14 PM
+ADMIN LOGIN | 11/30/2021 5:23:20 PM
+admin | 11/30/2021 5:23:21 PM
+USER SELECT | 11/30/2021 5:23:21 PM
+admin | 11/30/2021 5:37:44 PM
+USER SELECT | 11/30/2021 5:37:44 PM
+admin | 11/30/2021 5:38:59 PM
+USER SELECT | 11/30/2021 5:38:59 PM
+admin | 11/30/2021 5:39:08 PM
+system users | 11/30/2021 5:39:10 PM
+city | 11/30/2021 5:39:30 PM
+LOAD COUNTRY | 11/30/2021 5:39:30 PM
+country | 11/30/2021 5:39:31 PM
+flight | 11/30/2021 5:39:36 PM
+FLIGHT DETAILS SELECT | 11/30/2021 5:39:36 PM
+staff | 11/30/2021 5:39:40 PM
+airplane details | 11/30/2021 5:39:46 PM
+booking details | 11/30/2021 5:39:48 PM
+passengers and bookings | 11/30/2021 5:39:49 PM
+admin | 11/30/2021 5:39:55 PM
+USER SELECT | 11/30/2021 5:39:55 PM
+USER LOGIN | 11/30/2021 5:40:10 PM
+USER LOGIN | 11/30/2021 5:40:32 PM
+admin | 11/30/2021 5:48:25 PM
+USER SELECT | 11/30/2021 5:48:25 PM
+USER LOGIN | 11/30/2021 5:48:38 PM
+admin | 11/30/2021 5:49:45 PM
+USER SELECT | 11/30/2021 5:49:46 PM
+ADMIN LOGIN | 11/30/2021 5:49:50 PM
+admin | 11/30/2021 5:49:51 PM
+USER SELECT | 11/30/2021 5:49:51 PM
+admin | 11/30/2021 5:50:05 PM
+USER SELECT | 11/30/2021 5:50:05 PM
+admin | 11/30/2021 5:50:18 PM
+USER SELECT | 11/30/2021 5:50:19 PM
+USER LOGIN | 11/30/2021 5:51:39 PM
+admin | 11/30/2021 5:51:40 PM
+USER SELECT | 11/30/2021 5:51:40 PM
+Find Flight | 11/30/2021 5:52:24 PM
+Find Flight | 11/30/2021 5:52:38 PM
+admin | 11/30/2021 5:52:38 PM
+USER SELECT | 11/30/2021 5:52:38 PM
+admin | 11/30/2021 5:52:43 PM
+USER SELECT | 11/30/2021 5:52:43 PM
+admin | 11/30/2021 5:54:13 PM
+USER SELECT | 11/30/2021 5:54:13 PM
+system users | 11/30/2021 5:54:19 PM
+admin | 11/30/2021 5:54:22 PM
+dashboard | 11/30/2021 5:54:25 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/30/2021 5:54:25 PM
+admin | 11/30/2021 5:58:06 PM
+USER SELECT | 11/30/2021 5:58:06 PM
+admin | 11/30/2021 6:00:17 PM
+USER SELECT | 11/30/2021 6:00:18 PM
+admin | 11/30/2021 6:09:32 PM
+system users | 11/30/2021 6:09:34 PM
+airplane | 11/30/2021 6:09:37 PM
+airport | 11/30/2021 6:09:40 PM
+LOAD CITY | 11/30/2021 6:09:40 PM
+airport | 11/30/2021 6:09:43 PM
+LOAD CITY | 11/30/2021 6:09:43 PM
+dashboard | 11/30/2021 6:11:12 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\airline\App_Code\Chathub.vb:line 30 | 11/30/2021 6:11:12 PM
+admin | 11/30/2021 6:14:30 PM
+USER SELECT | 11/30/2021 6:14:31 PM
+admin | 11/30/2021 6:16:42 PM
+USER SELECT | 11/30/2021 6:16:42 PM
+admin | 11/30/2021 6:16:48 PM
+USER SELECT | 11/30/2021 6:16:48 PM
+admin | 11/30/2021 6:17:39 PM
+USER SELECT | 11/30/2021 6:17:39 PM
+admin | 11/30/2021 6:18:00 PM
+USER SELECT | 11/30/2021 6:18:00 PM
+admin | 11/30/2021 6:18:56 PM
+USER SELECT | 11/30/2021 6:18:56 PM
+admin | 11/30/2021 6:19:36 PM
+USER SELECT | 11/30/2021 6:19:36 PM
+admin | 12/3/2021 6:55:22 AM
+USER SELECT | 12/3/2021 6:55:23 AM
+admin | 12/5/2021 1:51:45 PM
+USER SELECT | 12/5/2021 1:51:47 PM
+admin | 12/5/2021 1:52:06 PM
+USER SELECT | 12/5/2021 1:52:06 PM
+USER LOGIN | 12/5/2021 1:52:15 PM
+USER LOGIN | 12/5/2021 1:52:37 PM
+admin | 12/5/2021 1:59:34 PM
+USER SELECT | 12/5/2021 1:59:34 PM
+ADMIN LOGIN | 12/5/2021 1:59:42 PM
+admin | 12/6/2021 8:48:13 AM
+USER SELECT | 12/6/2021 8:48:13 AM
+admin | 12/6/2021 8:48:21 AM
+USER SELECT | 12/6/2021 8:48:21 AM
+admin | 12/6/2021 11:28:51 AM
+USER SELECT | 12/6/2021 11:28:51 AM
+admin | 12/6/2021 11:29:07 AM
+USER SELECT | 12/6/2021 11:29:07 AM
+admin | 12/6/2021 11:29:21 AM
+USER SELECT | 12/6/2021 11:29:21 AM
+admin | 12/6/2021 12:50:12 PM
+USER SELECT | 12/6/2021 12:50:13 PM
+admin | 12/6/2021 2:50:42 PM
+USER SELECT | 12/6/2021 2:50:42 PM
+admin | 12/6/2021 2:52:48 PM
+Invalid object name 'ADMIN'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/6/2021 2:52:48 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_setup_action(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 2:52:48 PM
+USER SELECT | 12/6/2021 2:52:48 PM
+Could not find stored procedure 'AIRLINE_SELECT'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.airline_select(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 34 | 12/6/2021 2:52:48 PM
+Object reference not set to an instance of an object. :    at Chathub.airline_select(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/6/2021 2:52:48 PM
+staff | 12/6/2021 3:14:06 PM
+Procedure or function 'sp_app_management' expects parameter '@string', which was not supplied. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/6/2021 3:14:06 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:14:06 PM
+staff | 12/6/2021 3:14:20 PM
+Procedure or function 'sp_app_management' expects parameter '@string', which was not supplied. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/6/2021 3:14:20 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:14:20 PM
+staff | 12/6/2021 3:15:32 PM
+staff | 12/6/2021 3:28:43 PM
+Staff | 12/6/2021 3:28:46 PM
+Flights | 12/6/2021 3:28:55 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:28:55 PM
+Staff | 12/6/2021 3:29:01 PM
+Flights | 12/6/2021 3:29:03 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:29:03 PM
+staff | 12/6/2021 3:29:56 PM
+Staff | 12/6/2021 3:29:57 PM
+staff | 12/6/2021 3:30:15 PM
+Staff | 12/6/2021 3:30:16 PM
+Flights | 12/6/2021 3:30:20 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:30:20 PM
+Flights | 12/6/2021 3:30:28 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:30:28 PM
+Staff | 12/6/2021 3:31:07 PM
+Flights | 12/6/2021 3:31:12 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:31:12 PM
+staff | 12/6/2021 3:31:42 PM
+Staff | 12/6/2021 3:31:45 PM
+Flights | 12/6/2021 3:31:48 PM
+Machines | 12/6/2021 3:31:51 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:31:51 PM
+staff | 12/6/2021 3:32:02 PM
+Machines | 12/6/2021 3:32:03 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:32:03 PM
+Machines | 12/6/2021 3:32:09 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:32:09 PM
+Flights | 12/6/2021 3:32:17 PM
+Machines | 12/6/2021 3:32:25 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:32:25 PM
+Machines | 12/6/2021 3:32:43 PM
+Machines | 12/6/2021 3:32:46 PM
+staff | 12/6/2021 3:34:41 PM
+Flights | 12/6/2021 3:34:42 PM
+Staff | 12/6/2021 3:34:52 PM
+Flights | 12/6/2021 3:34:53 PM
+Staff | 12/6/2021 3:34:55 PM
+Machines | 12/6/2021 3:34:56 PM
+Report | 12/6/2021 3:35:03 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 3:35:03 PM
+Staff | 12/6/2021 3:35:08 PM
+Staff | 12/6/2021 3:35:38 PM
+Staff | 12/6/2021 3:35:48 PM
+Flights | 12/6/2021 3:35:50 PM
+Staff | 12/6/2021 3:35:54 PM
+Flights | 12/6/2021 3:35:56 PM
+staff | 12/6/2021 3:35:58 PM
+Staff | 12/6/2021 3:35:59 PM
+Flights | 12/6/2021 3:36:01 PM
+staff | 12/6/2021 3:36:28 PM
+Flights | 12/6/2021 3:36:28 PM
+Staff | 12/6/2021 3:36:29 PM
+Staff | 12/6/2021 3:37:11 PM
+Flights | 12/6/2021 3:37:11 PM
+Machines | 12/6/2021 3:37:14 PM
+Flights | 12/6/2021 3:37:17 PM
+Staff | 12/6/2021 3:37:20 PM
+Flights | 12/6/2021 3:37:23 PM
+Machines | 12/6/2021 3:37:26 PM
+Staff | 12/6/2021 3:37:35 PM
+Flights | 12/6/2021 3:37:35 PM
+Machines | 12/6/2021 3:37:37 PM
+Flights | 12/6/2021 3:37:38 PM
+Staff | 12/6/2021 3:37:38 PM
+Staff | 12/6/2021 3:37:49 PM
+Flights | 12/6/2021 3:37:52 PM
+Staff | 12/6/2021 3:37:52 PM
+Staff | 12/6/2021 3:37:55 PM
+Flights | 12/6/2021 3:37:57 PM
+Staff | 12/6/2021 3:37:59 PM
+Flights | 12/6/2021 3:38:00 PM
+Machines | 12/6/2021 3:38:00 PM
+Staff | 12/6/2021 3:38:02 PM
+Flights | 12/6/2021 3:38:04 PM
+Machines | 12/6/2021 3:38:18 PM
+Staff | 12/6/2021 3:40:06 PM
+Staff | 12/6/2021 3:40:08 PM
+Flights | 12/6/2021 3:40:10 PM
+Staff | 12/6/2021 3:40:33 PM
+Staff | 12/6/2021 3:42:58 PM
+Flights | 12/6/2021 3:43:21 PM
+Machines | 12/6/2021 3:43:23 PM
+Staff | 12/6/2021 3:43:26 PM
+Staff | 12/6/2021 3:43:27 PM
+Flights | 12/6/2021 3:43:28 PM
+Staff | 12/6/2021 3:43:46 PM
+Flights | 12/6/2021 3:43:48 PM
+Machines | 12/6/2021 3:43:51 PM
+Staff | 12/6/2021 3:43:52 PM
+Flights | 12/6/2021 3:43:54 PM
+Staff | 12/6/2021 3:43:54 PM
+Machines | 12/6/2021 3:43:55 PM
+Flights | 12/6/2021 3:43:55 PM
+Staff | 12/6/2021 3:43:56 PM
+Machines | 12/6/2021 3:44:33 PM
+staff | 12/6/2021 3:45:00 PM
+Machines | 12/6/2021 3:45:01 PM
+staff | 12/6/2021 3:54:45 PM
+Staff | 12/6/2021 3:54:47 PM
+staff | 12/6/2021 4:04:20 PM
+Staff | 12/6/2021 4:04:24 PM
+Staff | 12/6/2021 4:04:26 PM
+Staff | 12/6/2021 4:04:51 PM
+Staff | 12/6/2021 4:04:52 PM
+staff | 12/6/2021 4:28:16 PM
+Staff | 12/6/2021 4:28:22 PM
+staff | 12/6/2021 4:28:27 PM
+Staff | 12/6/2021 4:28:29 PM
+staff | 12/6/2021 4:29:52 PM
+Staff | 12/6/2021 4:29:53 PM
+staff | 12/6/2021 4:33:12 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:33:12 PM
+staff | 12/6/2021 4:33:24 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:33:24 PM
+staff | 12/6/2021 4:33:47 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:33:47 PM
+staff | 12/6/2021 4:34:10 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:34:11 PM
+staff | 12/6/2021 4:34:20 PM
+Staff | 12/6/2021 4:34:22 PM
+staff | 12/6/2021 4:35:42 PM
+Staff | 12/6/2021 4:35:50 PM
+staff | 12/6/2021 4:36:43 PM
+Staff | 12/6/2021 4:36:46 PM
+staff | 12/6/2021 4:37:06 PM
+Flights | 12/6/2021 4:37:07 PM
+Staff | 12/6/2021 4:37:09 PM
+staff | 12/6/2021 4:38:12 PM
+Staff | 12/6/2021 4:38:12 PM
+staff | 12/6/2021 4:38:22 PM
+Staff | 12/6/2021 4:38:23 PM
+staff | 12/6/2021 4:50:28 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:50:28 PM
+staff | 12/6/2021 4:50:28 PM
+staff | 12/6/2021 4:51:14 PM
+Staff | 12/6/2021 4:53:29 PM
+staff | 12/6/2021 4:54:32 PM
+Staff | 12/6/2021 4:54:33 PM
+staff | 12/6/2021 4:54:57 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:54:57 PM
+staff | 12/6/2021 4:54:57 PM
+staff | 12/6/2021 4:56:15 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 4:56:15 PM
+staff | 12/6/2021 4:56:15 PM
+staff | 12/6/2021 4:56:55 PM
+Staff | 12/6/2021 4:56:56 PM
+staff | 12/6/2021 4:57:10 PM
+Staff | 12/6/2021 4:57:11 PM
+staff | 12/6/2021 4:57:23 PM
+staff | 12/6/2021 4:57:24 PM
+staff | 12/6/2021 4:58:17 PM
+Staff | 12/6/2021 4:59:32 PM
+Flights | 12/6/2021 4:59:37 PM
+Staff | 12/6/2021 4:59:38 PM
+Flights | 12/6/2021 4:59:42 PM
+Flights | 12/6/2021 4:59:45 PM
+staff | 12/6/2021 5:01:00 PM
+Staff | 12/6/2021 5:01:00 PM
+Flights | 12/6/2021 5:01:01 PM
+Staff | 12/6/2021 5:01:02 PM
+Flights | 12/6/2021 5:01:07 PM
+Staff | 12/6/2021 5:01:10 PM
+Flights | 12/6/2021 5:01:11 PM
+staff | 12/6/2021 5:04:13 PM
+Flights | 12/6/2021 5:21:24 PM
+Staff | 12/6/2021 5:21:26 PM
+Flights | 12/6/2021 5:21:28 PM
+staff | 12/6/2021 5:27:36 PM
+Flights | 12/6/2021 5:28:55 PM
+flights | 12/6/2021 5:29:16 PM
+Cannot insert the value NULL into column 'flight_id', table 'AIRLINESDB.dbo.flight'; column does not allow nulls. INSERT fails.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/6/2021 5:29:16 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 5:29:16 PM
+flights | 12/6/2021 5:29:16 PM
+staff | 12/6/2021 5:41:35 PM
+Flights | 12/6/2021 5:41:38 PM
+staff | 12/6/2021 8:27:24 PM
+Staff | 12/6/2021 8:27:50 PM
+Machines | 12/6/2021 8:27:52 PM
+staff | 12/6/2021 8:29:04 PM
+Machines | 12/6/2021 8:29:05 PM
+machines | 12/6/2021 8:29:12 PM
+Cannot insert the value NULL into column 'Aircraft_ID', table 'AIRLINESDB.dbo.aircraft'; column does not allow nulls. INSERT fails.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/6/2021 8:29:12 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/6/2021 8:29:12 PM
+machines | 12/6/2021 8:29:12 PM
+staff | 12/6/2021 8:35:37 PM
+Machines | 12/6/2021 8:35:38 PM
+staff | 12/6/2021 8:38:48 PM
+Flights | 12/6/2021 8:38:54 PM
+Machines | 12/6/2021 8:38:57 PM
+staff | 12/6/2021 8:39:47 PM
+Flights | 12/6/2021 8:40:05 PM
+Flights | 12/6/2021 8:40:08 PM
+Flights | 12/6/2021 8:40:09 PM
+Machines | 12/6/2021 8:40:10 PM
+Flights | 12/6/2021 8:40:11 PM
+Machines | 12/6/2021 8:40:12 PM
+Flights | 12/6/2021 8:40:13 PM
+Machines | 12/6/2021 8:40:14 PM
+staff | 12/6/2021 8:41:30 PM
+Machines | 12/6/2021 8:41:32 PM
+machines | 12/6/2021 8:41:45 PM
+machines | 12/6/2021 8:41:46 PM
+machines | 12/6/2021 8:41:57 PM
+machines | 12/6/2021 8:41:58 PM
+Flights | 12/6/2021 8:42:02 PM
+Flights | 12/6/2021 8:42:08 PM
+staff | 12/6/2021 9:06:54 PM
+Flights | 12/6/2021 9:06:55 PM
+staff | 12/7/2021 7:26:25 AM
+Staff | 12/7/2021 7:26:27 AM
+Staff | 12/7/2021 7:26:30 AM
+Flights | 12/7/2021 7:26:33 AM
+Flights | 12/7/2021 7:26:46 AM
+staff | 12/7/2021 7:40:58 AM
+Flights | 12/7/2021 7:41:43 AM
+staff | 12/7/2021 7:43:29 AM
+Flights | 12/7/2021 7:44:33 AM
+staff | 12/7/2021 7:46:55 AM
+Flights | 12/7/2021 7:47:10 AM
+staff | 12/7/2021 7:47:51 AM
+Flights | 12/7/2021 7:47:52 AM
+staff | 12/7/2021 7:48:21 AM
+Flights | 12/7/2021 7:48:22 AM
+Machines | 12/7/2021 7:48:23 AM
+Flights | 12/7/2021 7:48:24 AM
+Machines | 12/7/2021 7:48:25 AM
+Flights | 12/7/2021 7:48:28 AM
+Machines | 12/7/2021 7:48:30 AM
+Flights | 12/7/2021 7:48:32 AM
+Staff | 12/7/2021 7:48:32 AM
+Flights | 12/7/2021 7:48:34 AM
+Machines | 12/7/2021 7:48:34 AM
+Flights | 12/7/2021 7:48:37 AM
+Flights | 12/7/2021 7:48:45 AM
+Machines | 12/7/2021 7:50:29 AM
+Flights | 12/7/2021 7:50:30 AM
+Flights | 12/7/2021 7:51:37 AM
+Flights | 12/7/2021 7:51:57 AM
+Flights | 12/7/2021 7:52:10 AM
+staff | 12/7/2021 7:53:30 AM
+Flights | 12/7/2021 7:53:31 AM
+staff | 12/7/2021 7:53:55 AM
+Machines | 12/7/2021 7:53:57 AM
+Flights | 12/7/2021 7:53:58 AM
+Staff | 12/7/2021 7:54:00 AM
+Flights | 12/7/2021 7:54:06 AM
+Flights | 12/7/2021 7:54:09 AM
+Staff | 12/7/2021 7:54:09 AM
+Flights | 12/7/2021 7:54:10 AM
+Flights | 12/7/2021 7:54:12 AM
+Staff | 12/7/2021 7:54:13 AM
+Flights | 12/7/2021 7:54:14 AM
+Flights | 12/7/2021 7:54:27 AM
+staff | 12/7/2021 7:58:05 AM
+Flights | 12/7/2021 7:58:06 AM
+staff | 12/7/2021 7:58:25 AM
+Flights | 12/7/2021 7:58:26 AM
+staff | 12/7/2021 7:59:05 AM
+Machines | 12/7/2021 7:59:51 AM
+Flights | 12/7/2021 7:59:53 AM
+staff | 12/7/2021 8:00:10 AM
+Flights | 12/7/2021 8:00:11 AM
+flight select | 12/7/2021 8:00:13 AM
+Invalid object name 'airplane'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_selection(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 34 | 12/7/2021 8:00:13 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_selection(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/7/2021 8:00:13 AM
+staff | 12/7/2021 8:21:30 AM
+Booking Details | 12/7/2021 8:21:32 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:21:32 AM
+Staff | 12/7/2021 8:21:45 AM
+Flights | 12/7/2021 8:21:48 AM
+flight select | 12/7/2021 8:21:49 AM
+Machines | 12/7/2021 8:21:52 AM
+Flights | 12/7/2021 8:21:57 AM
+flight select | 12/7/2021 8:21:59 AM
+staff | 12/7/2021 8:29:22 AM
+Flights | 12/7/2021 8:29:23 AM
+flight select | 12/7/2021 8:29:24 AM
+staff | 12/7/2021 8:31:40 AM
+Flights | 12/7/2021 8:31:43 AM
+flight select | 12/7/2021 8:31:44 AM
+staff | 12/7/2021 8:36:32 AM
+Flights | 12/7/2021 8:36:33 AM
+flight select | 12/7/2021 8:36:34 AM
+staff | 12/7/2021 8:38:01 AM
+Flights | 12/7/2021 8:38:02 AM
+flight select | 12/7/2021 8:38:03 AM
+Machines | 12/7/2021 8:38:05 AM
+Flights | 12/7/2021 8:38:07 AM
+flight select | 12/7/2021 8:38:08 AM
+staff | 12/7/2021 8:40:46 AM
+Flights | 12/7/2021 8:40:47 AM
+flight select | 12/7/2021 8:40:48 AM
+staff | 12/7/2021 8:43:04 AM
+Flights | 12/7/2021 8:43:08 AM
+flight select | 12/7/2021 8:43:09 AM
+flights | 12/7/2021 8:44:53 AM
+flights | 12/7/2021 8:44:54 AM
+staff | 12/7/2021 8:58:39 AM
+Flights | 12/7/2021 8:58:43 AM
+flight select | 12/7/2021 8:58:44 AM
+flights | 12/7/2021 8:59:03 AM
+flights | 12/7/2021 8:59:05 AM
+flights | 12/7/2021 8:59:26 AM
+flights | 12/7/2021 8:59:27 AM
+flights | 12/7/2021 9:00:49 AM
+flights | 12/7/2021 9:00:50 AM
+staff | 12/7/2021 9:02:15 AM
+Staff | 12/7/2021 9:02:29 AM
+Flights | 12/7/2021 9:02:35 AM
+flight select | 12/7/2021 9:02:36 AM
+Staff | 12/7/2021 9:02:38 AM
+staff | 12/7/2021 9:02:50 AM
+Staff | 12/7/2021 9:02:51 AM
+Flights | 12/7/2021 9:02:53 AM
+flight select | 12/7/2021 9:02:53 AM
+flights | 12/7/2021 9:03:16 AM
+flights | 12/7/2021 9:03:17 AM
+staff | 12/7/2021 9:05:12 AM
+Flights | 12/7/2021 9:05:13 AM
+flight select | 12/7/2021 9:05:13 AM
+flights | 12/7/2021 9:05:14 AM
+flights | 12/7/2021 9:05:15 AM
+flights | 12/7/2021 9:05:24 AM
+flights | 12/7/2021 9:05:25 AM
+flights | 12/7/2021 9:06:39 AM
+flights | 12/7/2021 9:06:41 AM
+flights | 12/7/2021 9:06:44 AM
+flights | 12/7/2021 9:06:45 AM
+flights | 12/7/2021 9:06:47 AM
+flights | 12/7/2021 9:06:48 AM
+flights | 12/7/2021 9:06:49 AM
+flights | 12/7/2021 9:06:50 AM
+flights | 12/7/2021 9:06:51 AM
+flights | 12/7/2021 9:06:52 AM
+flights | 12/7/2021 9:06:58 AM
+flights | 12/7/2021 9:06:59 AM
+staff | 12/7/2021 9:07:02 AM
+Flights | 12/7/2021 9:07:03 AM
+flight select | 12/7/2021 9:07:03 AM
+Staff | 12/7/2021 9:07:06 AM
+staff | 12/7/2021 9:07:10 AM
+staff | 12/7/2021 9:07:11 AM
+staff | 12/7/2021 9:07:13 AM
+staff | 12/7/2021 9:07:14 AM
+staff | 12/7/2021 9:07:16 AM
+staff | 12/7/2021 9:07:17 AM
+staff | 12/7/2021 9:07:18 AM
+staff | 12/7/2021 9:07:19 AM
+staff | 12/7/2021 9:07:21 AM
+staff | 12/7/2021 9:07:22 AM
+staff | 12/7/2021 9:07:23 AM
+staff | 12/7/2021 9:07:25 AM
+staff | 12/7/2021 9:07:27 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:27 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:27 AM
+staff | 12/7/2021 9:07:27 AM
+staff | 12/7/2021 9:07:28 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:28 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:28 AM
+staff | 12/7/2021 9:07:28 AM
+staff | 12/7/2021 9:07:31 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:31 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:31 AM
+staff | 12/7/2021 9:07:31 AM
+staff | 12/7/2021 9:07:32 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:32 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:32 AM
+staff | 12/7/2021 9:07:32 AM
+staff | 12/7/2021 9:07:36 AM
+Flights | 12/7/2021 9:07:37 AM
+flight select | 12/7/2021 9:07:37 AM
+Flights | 12/7/2021 9:07:38 AM
+flight select | 12/7/2021 9:07:38 AM
+Staff | 12/7/2021 9:07:38 AM
+staff | 12/7/2021 9:07:39 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:40 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:40 AM
+staff | 12/7/2021 9:07:40 AM
+staff | 12/7/2021 9:07:40 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:40 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:40 AM
+staff | 12/7/2021 9:07:40 AM
+staff | 12/7/2021 9:07:48 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:07:48 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:07:48 AM
+staff | 12/7/2021 9:07:48 AM
+staff | 12/7/2021 9:08:28 AM
+staff | 12/7/2021 9:08:29 AM
+staff | 12/7/2021 9:08:32 AM
+staff | 12/7/2021 9:08:34 AM
+staff | 12/7/2021 9:08:34 AM
+staff | 12/7/2021 9:08:35 AM
+staff | 12/7/2021 9:08:36 AM
+staff | 12/7/2021 9:08:37 AM
+staff | 12/7/2021 9:08:38 AM
+staff | 12/7/2021 9:08:39 AM
+staff | 12/7/2021 9:08:40 AM
+staff | 12/7/2021 9:08:41 AM
+staff | 12/7/2021 9:08:42 AM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/7/2021 9:08:42 AM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:08:42 AM
+staff | 12/7/2021 9:08:42 AM
+Staff | 12/7/2021 9:08:51 AM
+Flights | 12/7/2021 9:08:53 AM
+flight select | 12/7/2021 9:08:53 AM
+flights | 12/7/2021 9:08:58 AM
+flights | 12/7/2021 9:08:59 AM
+flights | 12/7/2021 9:09:00 AM
+flights | 12/7/2021 9:09:01 AM
+flights | 12/7/2021 9:09:02 AM
+flights | 12/7/2021 9:09:03 AM
+flights | 12/7/2021 9:09:04 AM
+flights | 12/7/2021 9:09:05 AM
+Machines | 12/7/2021 9:09:06 AM
+machines | 12/7/2021 9:09:08 AM
+machines | 12/7/2021 9:09:09 AM
+Machine and Pilots Details | 12/7/2021 9:09:12 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:12 AM
+Booking Details | 12/7/2021 9:09:18 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:18 AM
+Booking Details | 12/7/2021 9:09:23 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:23 AM
+staff | 12/7/2021 9:54:06 AM
+Flights | 12/7/2021 9:54:07 AM
+flight select | 12/7/2021 9:54:07 AM
+Machines | 12/7/2021 9:54:08 AM
+Flights | 12/7/2021 9:54:09 AM
+flight select | 12/7/2021 9:54:09 AM
+Flights | 12/7/2021 9:54:10 AM
+flight select | 12/7/2021 9:54:10 AM
+Machines | 12/7/2021 9:54:11 AM
+Flights | 12/7/2021 9:54:12 AM
+flight select | 12/7/2021 9:54:12 AM
+flights | 12/7/2021 9:54:31 AM
+flights | 12/7/2021 9:54:32 AM
+Staff | 12/7/2021 9:55:25 AM
+staff | 12/7/2021 9:55:40 AM
+staff | 12/7/2021 9:55:41 AM
+Flights | 12/7/2021 9:55:42 AM
+flight select | 12/7/2021 9:55:42 AM
+Flights | 12/7/2021 9:55:43 AM
+flight select | 12/7/2021 9:55:43 AM
+Staff | 12/7/2021 9:55:47 AM
+Flights | 12/7/2021 9:55:48 AM
+flight select | 12/7/2021 9:55:48 AM
+flights | 12/7/2021 9:56:17 AM
+flights | 12/7/2021 9:56:18 AM
+staff | 12/7/2021 10:10:46 AM
+Staff | 12/7/2021 10:10:47 AM
+Flights | 12/7/2021 10:10:47 AM
+flight select | 12/7/2021 10:10:47 AM
+Staff | 12/7/2021 10:10:49 AM
+staff | 12/7/2021 10:11:04 AM
+staff | 12/7/2021 10:11:06 AM
+staff | 12/7/2021 10:19:40 AM
+Staff | 12/7/2021 10:19:43 AM
+Flights | 12/7/2021 10:19:51 AM
+flight select | 12/7/2021 10:19:51 AM
+Machines | 12/7/2021 10:19:54 AM
+Booking Details | 12/7/2021 10:20:06 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 10:20:07 AM
+Machines | 12/7/2021 10:20:10 AM
+staff | 12/7/2021 10:38:50 AM
+booking details | 12/7/2021 10:38:52 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 10:38:52 AM
+booking details | 12/7/2021 10:39:06 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 10:39:06 AM
+machine and pilot details | 12/7/2021 10:39:55 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 10:39:55 AM
+Flights | 12/7/2021 10:39:57 AM
+flight select | 12/7/2021 10:39:57 AM
+booking details | 12/7/2021 10:39:59 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 10:39:59 AM
+staff | 12/7/2021 11:10:53 AM
+flights | 12/7/2021 11:11:34 AM
+flight select | 12/7/2021 11:11:34 AM
+staff | 12/7/2021 11:11:36 AM
+machines | 12/7/2021 11:11:37 AM
+booking details | 12/7/2021 11:11:38 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:11:38 AM
+staff | 12/7/2021 11:11:59 AM
+staff | 12/7/2021 11:12:32 AM
+staff | 12/7/2021 11:12:34 AM
+flights | 12/7/2021 11:12:36 AM
+flight select | 12/7/2021 11:12:36 AM
+booking details | 12/7/2021 11:12:38 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:12:38 AM
+flights | 12/7/2021 11:12:39 AM
+flight select | 12/7/2021 11:12:39 AM
+staff | 12/7/2021 11:13:02 AM
+staff | 12/7/2021 11:13:39 AM
+staff | 12/7/2021 11:13:41 AM
+staff | 12/7/2021 11:13:43 AM
+booking details | 12/7/2021 11:13:44 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:13:44 AM
+staff | 12/7/2021 11:13:46 AM
+flights | 12/7/2021 11:13:46 AM
+flight select | 12/7/2021 11:13:47 AM
+machines | 12/7/2021 11:13:47 AM
+staff | 12/7/2021 11:13:48 AM
+booking details | 12/7/2021 11:13:49 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:13:49 AM
+staff | 12/7/2021 11:13:52 AM
+booking details | 12/7/2021 11:13:53 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:13:53 AM
+staff | 12/7/2021 11:14:16 AM
+machine and pilot details | 12/7/2021 11:14:18 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:14:18 AM
+machines | 12/7/2021 11:14:32 AM
+staff | 12/7/2021 11:14:36 AM
+staff | 12/7/2021 11:14:40 AM
+machine and pilot details | 12/7/2021 11:14:41 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:14:42 AM
+passenger and bookings | 12/7/2021 11:14:42 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:14:42 AM
+flights | 12/7/2021 11:14:44 AM
+flight select | 12/7/2021 11:14:44 AM
+machines | 12/7/2021 11:14:45 AM
+booking details | 12/7/2021 11:14:46 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:14:46 AM
+machine and pilot details | 12/7/2021 11:14:47 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:14:47 AM
+staff | 12/7/2021 11:46:50 AM
+booking details | 12/7/2021 11:46:53 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:46:53 AM
+booking details | 12/7/2021 11:46:55 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:46:55 AM
+machine and pilot details | 12/7/2021 11:47:03 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:47:03 AM
+booking details | 12/7/2021 11:47:05 AM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 11:47:05 AM
+booking details | 12/7/2021 11:49:08 AM
+machine and pilot details | 12/7/2021 11:49:09 AM
+booking details | 12/7/2021 11:49:10 AM
+machine and pilot details | 12/7/2021 11:51:12 AM
+booking details | 12/7/2021 11:51:47 AM
+machine and pilot details | 12/7/2021 11:51:50 AM
+staff | 12/7/2021 11:53:27 AM
+booking details | 12/7/2021 11:53:29 AM
+machine and pilot details | 12/7/2021 11:53:30 AM
+staff | 12/7/2021 11:53:43 AM
+booking details | 12/7/2021 11:53:44 AM
+machine and pilot details | 12/7/2021 11:53:46 AM
+passenger and bookings | 12/7/2021 11:53:51 AM
+staff | 12/7/2021 12:00:14 PM
+passenger and bookings | 12/7/2021 12:00:15 PM
+staff | 12/7/2021 12:02:48 PM
+staff | 12/7/2021 12:03:02 PM
+report | 12/7/2021 12:08:20 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 12:08:20 PM
+staff | 12/7/2021 12:08:26 PM
+flights | 12/7/2021 12:08:26 PM
+flight select | 12/7/2021 12:08:26 PM
+machines | 12/7/2021 12:08:27 PM
+booking details | 12/7/2021 12:08:28 PM
+machine and pilot details | 12/7/2021 12:08:29 PM
+passenger and bookings | 12/7/2021 12:08:29 PM
+machine and pilot details | 12/7/2021 12:08:30 PM
+staff | 12/7/2021 12:39:33 PM
+staff | 12/7/2021 12:40:36 PM
+staff | 12/7/2021 12:40:36 PM
+staff | 12/7/2021 12:45:19 PM
+staff | 12/7/2021 12:45:20 PM
+staff | 12/7/2021 12:45:21 PM
+user register | 12/7/2021 12:45:46 PM
+staff | 12/7/2021 12:46:55 PM
+staff | 12/7/2021 12:46:57 PM
+user register | 12/7/2021 12:47:09 PM
+user register | 12/7/2021 12:47:11 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 12:47:11 PM
+staff | 12/7/2021 12:50:33 PM
+staff | 12/7/2021 12:50:53 PM
+user register | 12/7/2021 12:51:06 PM
+staff | 12/7/2021 12:51:21 PM
+staff | 12/7/2021 1:03:01 PM
+user register | 12/7/2021 1:04:55 PM
+staff | 12/7/2021 1:05:41 PM
+staff | 12/7/2021 1:05:43 PM
+user register | 12/7/2021 1:05:56 PM
+staff | 12/7/2021 1:05:56 PM
+staff | 12/7/2021 1:06:05 PM
+staff | 12/7/2021 1:06:06 PM
+user register | 12/7/2021 1:06:20 PM
+staff | 12/7/2021 1:06:20 PM
+staff | 12/7/2021 1:06:24 PM
+staff | 12/7/2021 1:06:26 PM
+staff | 12/7/2021 1:06:37 PM
+user register | 12/7/2021 1:06:55 PM
+staff | 12/7/2021 1:07:22 PM
+staff | 12/7/2021 1:09:39 PM
+staff | 12/7/2021 1:55:15 PM
+staff | 12/7/2021 2:15:42 PM
+staff | 12/7/2021 2:15:49 PM
+staff | 12/7/2021 2:15:55 PM
+staff | 12/7/2021 2:16:36 PM
+staff | 12/7/2021 2:16:38 PM
+staff | 12/7/2021 2:20:29 PM
+user login | 12/7/2021 2:20:39 PM
+user login | 12/7/2021 2:20:40 PM
+staff | 12/7/2021 2:38:12 PM
+user login | 12/7/2021 2:38:21 PM
+staff | 12/7/2021 2:40:13 PM
+user login | 12/7/2021 2:41:38 PM
+staff | 12/7/2021 2:41:43 PM
+user login | 12/7/2021 2:42:00 PM
+staff | 12/7/2021 2:42:02 PM
+staff | 12/7/2021 2:42:06 PM
+flights | 12/7/2021 2:42:12 PM
+flight select | 12/7/2021 2:42:12 PM
+machines | 12/7/2021 2:42:14 PM
+machine and pilot details | 12/7/2021 2:42:17 PM
+passenger and bookings | 12/7/2021 2:42:19 PM
+passenger and bookings | 12/7/2021 2:42:21 PM
+flights | 12/7/2021 2:42:22 PM
+flight select | 12/7/2021 2:42:22 PM
+staff | 12/7/2021 2:42:23 PM
+staff | 12/7/2021 2:43:36 PM
+staff | 12/7/2021 2:43:37 PM
+staff | 12/7/2021 2:43:38 PM
+staff | 12/7/2021 2:43:40 PM
+staff | 12/7/2021 2:43:46 PM
+staff | 12/7/2021 2:44:33 PM
+staff | 12/7/2021 2:45:01 PM
+staff | 12/7/2021 2:47:47 PM
+staff | 12/7/2021 2:47:48 PM
+user login | 12/7/2021 2:47:52 PM
+staff | 12/7/2021 2:48:00 PM
+user login | 12/7/2021 2:48:11 PM
+staff | 12/7/2021 2:48:13 PM
+staff | 12/7/2021 2:48:17 PM
+flights | 12/7/2021 2:48:18 PM
+flight select | 12/7/2021 2:48:18 PM
+staff | 12/7/2021 2:57:22 PM
+staff | 12/7/2021 2:57:51 PM
+staff | 12/7/2021 2:58:29 PM
+staff | 12/7/2021 3:01:16 PM
+staff | 12/7/2021 3:19:09 PM
+staff | 12/7/2021 3:19:48 PM
+staff | 12/7/2021 3:19:52 PM
+staff | 12/7/2021 3:19:57 PM
+staff | 12/7/2021 3:19:59 PM
+staff | 12/7/2021 3:20:18 PM
+staff | 12/7/2021 3:20:53 PM
+staff | 12/7/2021 3:21:01 PM
+staff | 12/7/2021 3:40:16 PM
+user login | 12/7/2021 3:40:23 PM
+staff | 12/7/2021 3:41:19 PM
+user login | 12/7/2021 3:41:31 PM
+staff | 12/7/2021 3:42:04 PM
+user login | 12/7/2021 3:42:31 PM
+staff | 12/7/2021 3:42:50 PM
+user login | 12/7/2021 3:42:59 PM
+staff | 12/7/2021 3:43:02 PM
+staff | 12/7/2021 3:43:41 PM
+user login | 12/7/2021 3:44:19 PM
+staff | 12/7/2021 3:44:21 PM
+staff | 12/7/2021 3:52:09 PM
+staff | 12/7/2021 3:52:18 PM
+staff | 12/7/2021 3:54:14 PM
+staff | 12/7/2021 3:56:00 PM
+all flight | 12/7/2021 3:56:14 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_selection(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/7/2021 3:56:15 PM
+all flight | 12/7/2021 4:15:39 PM
+all flight | 12/7/2021 4:17:50 PM
+all flight | 12/7/2021 4:19:15 PM
+all flight | 12/7/2021 4:19:41 PM
+all flight | 12/7/2021 4:24:15 PM
+all flight | 12/7/2021 4:37:24 PM
+all flight | 12/7/2021 4:49:10 PM
+all flight | 12/7/2021 5:03:41 PM
+all flight | 12/7/2021 5:07:22 PM
+all flight | 12/7/2021 5:08:48 PM
+all flight | 12/7/2021 5:10:05 PM
+all flight | 12/7/2021 5:13:11 PM
+all flight | 12/7/2021 5:14:12 PM
+all flight | 12/7/2021 5:16:51 PM
+all flight | 12/7/2021 5:32:43 PM
+all flight | 12/7/2021 5:55:10 PM
+all flight | 12/7/2021 5:55:21 PM
+all flight | 12/7/2021 6:42:39 PM
+all flight | 12/7/2021 6:43:14 PM
+ | 12/7/2021 6:47:20 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_selection(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/7/2021 6:47:20 PM
+ | 12/7/2021 6:48:12 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_selection(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/7/2021 6:48:12 PM
+all flight | 12/7/2021 6:48:54 PM
+all flight | 12/7/2021 6:52:27 PM
+all flight | 12/7/2021 6:52:43 PM
+book flight | 12/7/2021 6:52:50 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 6:52:50 PM
+all flight | 12/7/2021 6:54:05 PM
+book flight | 12/7/2021 6:59:14 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 6:59:14 PM
+all flight | 12/7/2021 8:01:32 PM
+book flight | 12/7/2021 8:03:37 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:03:37 PM
+all flight | 12/7/2021 8:04:17 PM
+book flight | 12/7/2021 8:06:16 PM
+all flight | 12/7/2021 8:12:22 PM
+book flight | 12/7/2021 8:12:55 PM
+staff | 12/7/2021 8:13:09 PM
+all flight | 12/7/2021 8:15:37 PM
+my bookings | 12/7/2021 8:15:42 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:15:42 PM
+my passengers | 12/7/2021 8:15:44 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:15:44 PM
+my bookings | 12/7/2021 8:15:47 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:15:47 PM
+my bookings | 12/7/2021 8:15:52 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:15:52 PM
+my bookings | 12/7/2021 8:26:50 PM
+my passengers | 12/7/2021 8:26:52 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:26:52 PM
+all flight | 12/7/2021 8:35:27 PM
+my bookings | 12/7/2021 8:42:11 PM
+my passengers | 12/7/2021 8:42:13 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 8:42:13 PM
+all flight | 12/7/2021 8:42:17 PM
+my bookings | 12/7/2021 8:42:28 PM
+all flight | 12/7/2021 8:52:17 PM
+my bookings | 12/7/2021 8:52:19 PM
+all flight | 12/7/2021 9:00:31 PM
+my bookings | 12/7/2021 9:00:35 PM
+all flight | 12/7/2021 9:06:20 PM
+my bookings | 12/7/2021 9:09:18 PM
+my bookings | 12/7/2021 9:09:23 PM
+my passengers | 12/7/2021 9:09:25 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:25 PM
+my passengers | 12/7/2021 9:09:27 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:27 PM
+my passengers | 12/7/2021 9:09:43 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:09:43 PM
+my passengers | 12/7/2021 9:09:57 PM
+my bookings | 12/7/2021 9:10:57 PM
+my passengers | 12/7/2021 9:11:00 PM
+report | 12/7/2021 9:11:01 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:11:01 PM
+my bookings | 12/7/2021 9:11:03 PM
+my passengers | 12/7/2021 9:11:04 PM
+report | 12/7/2021 9:11:07 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:11:07 PM
+all flight | 12/7/2021 9:11:37 PM
+my bookings | 12/7/2021 9:11:40 PM
+my passengers | 12/7/2021 9:11:43 PM
+my bookings | 12/7/2021 9:11:46 PM
+my bookings | 12/7/2021 9:16:25 PM
+my passengers | 12/7/2021 9:16:26 PM
+my bookings | 12/7/2021 9:16:28 PM
+all flight | 12/7/2021 9:16:35 PM
+my bookings | 12/7/2021 9:17:27 PM
+my passengers | 12/7/2021 9:17:28 PM
+my bookings | 12/7/2021 9:17:34 PM
+report | 12/7/2021 9:17:36 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:17:36 PM
+all flight | 12/7/2021 9:20:20 PM
+all flight | 12/7/2021 9:21:11 PM
+my bookings | 12/7/2021 9:21:12 PM
+my passengers | 12/7/2021 9:21:14 PM
+all flight | 12/7/2021 9:22:36 PM
+all flight | 12/7/2021 9:24:11 PM
+my bookings | 12/7/2021 9:24:18 PM
+my passengers | 12/7/2021 9:24:19 PM
+all flight | 12/7/2021 9:25:04 PM
+user login | 12/7/2021 9:25:20 PM
+all flight | 12/7/2021 9:25:22 PM
+my bookings | 12/7/2021 9:25:25 PM
+my passengers | 12/7/2021 9:25:28 PM
+all flight | 12/7/2021 9:25:33 PM
+user login | 12/7/2021 9:26:27 PM
+staff | 12/7/2021 9:26:30 PM
+staff | 12/7/2021 9:31:43 PM
+staff | 12/7/2021 9:31:45 PM
+staff | 12/7/2021 9:31:47 PM
+report | 12/7/2021 9:38:35 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:38:36 PM
+staff | 12/7/2021 9:44:48 PM
+staff | 12/7/2021 9:44:52 PM
+staff | 12/7/2021 9:45:20 PM
+staff | 12/7/2021 9:47:25 PM
+flights | 12/7/2021 9:48:49 PM
+flight select | 12/7/2021 9:48:49 PM
+staff | 12/7/2021 9:48:55 PM
+flights | 12/7/2021 9:48:56 PM
+flight select | 12/7/2021 9:48:56 PM
+report | 12/7/2021 9:48:57 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/7/2021 9:48:57 PM
+staff | 12/7/2021 9:49:16 PM
+staff | 12/7/2021 9:50:11 PM
+staff | 12/7/2021 9:50:25 PM
+staff | 12/7/2021 9:55:30 PM
+staff | 12/7/2021 9:56:45 PM
+staff | 12/7/2021 9:58:22 PM
+staff | 12/7/2021 9:58:37 PM
+staff | 12/7/2021 10:17:51 PM
+staff | 12/7/2021 10:18:33 PM
+report | 12/7/2021 10:23:46 PM
+report | 12/7/2021 10:29:39 PM
+Cannot find table 0. :    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at Chathub.sp_selection(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 49 | 12/7/2021 10:29:39 PM
+report | 12/7/2021 10:31:40 PM
+report | 12/7/2021 10:33:01 PM
+report | 12/7/2021 10:33:21 PM
+report | 12/7/2021 10:33:24 PM
+report | 12/7/2021 10:33:57 PM
+report | 12/7/2021 10:34:37 PM
+report | 12/7/2021 10:34:47 PM
+report | 12/7/2021 10:45:07 PM
+report | 12/7/2021 10:45:38 PM
+report | 12/7/2021 10:46:02 PM
+report | 12/7/2021 10:46:38 PM
+report | 12/7/2021 10:46:55 PM
+report | 12/7/2021 10:47:12 PM
+staff | 12/7/2021 10:47:12 PM
+flights | 12/7/2021 10:47:14 PM
+flight select | 12/7/2021 10:47:14 PM
+machines | 12/7/2021 10:47:16 PM
+machine and pilot details | 12/7/2021 10:47:19 PM
+passenger and bookings | 12/7/2021 10:47:24 PM
+passenger and bookings | 12/7/2021 10:47:27 PM
+booking details | 12/7/2021 10:47:27 PM
+report | 12/7/2021 10:48:30 PM
+booking details | 12/7/2021 10:48:32 PM
+report | 12/7/2021 10:49:04 PM
+booking details | 12/7/2021 10:49:06 PM
+machine and pilot details | 12/7/2021 10:49:09 PM
+passenger and bookings | 12/7/2021 10:49:16 PM
+passenger and bookings | 12/7/2021 10:49:23 PM
+report | 12/7/2021 10:50:07 PM
+passenger and bookings | 12/7/2021 10:50:08 PM
+machine and pilot details | 12/7/2021 10:50:12 PM
+booking details | 12/7/2021 10:50:13 PM
+machines | 12/7/2021 10:50:13 PM
+flights | 12/7/2021 10:50:14 PM
+flight select | 12/7/2021 10:50:14 PM
+staff | 12/7/2021 10:50:14 PM
+staff | 12/7/2021 10:50:16 PM
+flights | 12/7/2021 10:50:16 PM
+flight select | 12/7/2021 10:50:16 PM
+machines | 12/7/2021 10:50:16 PM
+booking details | 12/7/2021 10:50:17 PM
+report | 12/7/2021 10:50:19 PM
+user login | 12/7/2021 10:50:21 PM
+all flight | 12/7/2021 10:50:23 PM
+my bookings | 12/7/2021 10:50:30 PM
+my passengers | 12/7/2021 10:50:30 PM
+all flight | 12/7/2021 10:50:59 PM
+user login | 12/7/2021 10:51:14 PM
+all flight | 12/7/2021 10:51:17 PM
+my bookings | 12/7/2021 10:51:20 PM
+my passengers | 12/7/2021 10:51:22 PM
+all flight | 12/7/2021 10:51:29 PM
+user login | 12/7/2021 10:51:42 PM
+report | 12/7/2021 10:51:43 PM
+staff | 12/7/2021 10:51:48 PM
+flights | 12/7/2021 10:51:51 PM
+flight select | 12/7/2021 10:51:51 PM
+machines | 12/7/2021 10:51:54 PM
+booking details | 12/7/2021 10:51:56 PM
+passenger and bookings | 12/7/2021 10:51:58 PM
+machine and pilot details | 12/7/2021 10:52:01 PM
+report | 12/9/2021 5:33:37 PM
+report | 12/9/2021 5:33:40 PM
+staff | 12/9/2021 5:34:03 PM
+flights | 12/9/2021 5:34:08 PM
+flight select | 12/9/2021 5:34:08 PM
+booking details | 12/9/2021 5:34:12 PM
+machine and pilot details | 12/9/2021 5:34:17 PM
+passenger and bookings | 12/9/2021 5:34:23 PM
+report | 12/9/2021 5:34:29 PM
+user login | 12/9/2021 5:34:46 PM
+all flight | 12/9/2021 5:34:48 PM
+my bookings | 12/9/2021 5:35:03 PM
+my passengers | 12/9/2021 5:35:07 PM
+all flight | 12/9/2021 6:01:01 PM
+user login | 12/9/2021 6:02:09 PM
+user login | 12/9/2021 6:02:21 PM
+user login | 12/9/2021 6:02:38 PM
+report | 12/9/2021 6:02:40 PM
+staff | 12/9/2021 6:02:58 PM
+staff | 12/9/2021 6:03:03 PM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/9/2021 6:03:03 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/9/2021 6:03:03 PM
+staff | 12/9/2021 6:03:03 PM
+flights | 12/9/2021 6:03:06 PM
+flight select | 12/9/2021 6:03:06 PM
+machines | 12/9/2021 6:03:10 PM
+booking details | 12/9/2021 6:03:11 PM
+machine and pilot details | 12/9/2021 6:03:12 PM
+report | 12/9/2021 6:03:17 PM
+user login | 12/9/2021 6:03:23 PM
+all flight | 12/9/2021 6:03:25 PM
+my bookings | 12/9/2021 6:03:29 PM
+report | 12/9/2021 6:03:31 PM
+all flight | 12/9/2021 6:03:32 PM
+all flight | 12/10/2021 8:32:02 AM
+user login | 12/10/2021 8:32:27 AM
+report | 12/10/2021 8:32:30 AM
+staff | 12/10/2021 8:33:17 AM
+report | 12/10/2021 8:33:19 AM
+staff | 12/10/2021 8:33:20 AM
+report | 12/10/2021 11:53:27 AM
+user login | 12/10/2021 11:53:28 AM
+report | 12/10/2021 11:53:30 AM
+staff | 12/10/2021 11:53:32 AM
+flights | 12/10/2021 11:53:32 AM
+flight select | 12/10/2021 11:53:33 AM
+machines | 12/10/2021 11:53:33 AM
+machines | 12/10/2021 11:53:33 AM
+booking details | 12/10/2021 11:53:34 AM
+machine and pilot details | 12/10/2021 11:53:34 AM
+passenger and bookings | 12/10/2021 11:53:35 AM
+staff | 12/10/2021 11:53:36 AM
+report | 12/10/2021 11:53:36 AM
+flights | 12/10/2021 11:54:11 AM
+flight select | 12/10/2021 11:54:11 AM
+staff | 12/10/2021 11:54:13 AM
+flights | 12/10/2021 11:54:14 AM
+flight select | 12/10/2021 11:54:14 AM
+report | 12/11/2021 6:51:02 AM
+report | 12/11/2021 6:52:30 AM
+report | 12/13/2021 8:37:03 AM
+report | 12/13/2021 9:20:24 AM
+report | 12/13/2021 9:00:21 PM
+user login | 12/13/2021 9:01:08 PM
+user login | 12/13/2021 9:02:51 PM
+report | 12/13/2021 9:02:53 PM
+staff | 12/13/2021 9:03:03 PM
+report | 12/13/2021 9:07:45 PM
+staff | 12/13/2021 9:08:03 PM
+report | 12/13/2021 9:08:14 PM
+staff | 12/13/2021 9:08:17 PM
+flights | 12/13/2021 9:08:27 PM
+flight select | 12/13/2021 9:08:27 PM
+machines | 12/13/2021 9:08:33 PM
+booking details | 12/13/2021 9:08:43 PM
+machine and pilot details | 12/13/2021 9:08:57 PM
+passenger and bookings | 12/13/2021 9:09:00 PM
+report | 12/13/2021 9:09:18 PM
+user login | 12/13/2021 9:09:56 PM
+all flight | 12/13/2021 9:10:01 PM
+my bookings | 12/13/2021 9:10:45 PM
+my passengers | 12/13/2021 9:10:56 PM
+all flight | 12/15/2021 1:38:23 PM
+user login | 12/15/2021 1:38:35 PM
+report | 12/15/2021 1:39:44 PM
+report | 12/15/2021 1:40:09 PM
+user login | 12/15/2021 1:40:30 PM
+report | 12/15/2021 1:41:03 PM
+user login | 12/15/2021 1:41:30 PM
+report | 12/15/2021 1:41:37 PM
+staff | 12/15/2021 1:41:49 PM
+staff | 12/15/2021 1:42:54 PM
+staff | 12/15/2021 1:43:02 PM
+staff | 12/15/2021 1:43:13 PM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/15/2021 1:43:13 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/15/2021 1:43:13 PM
+staff | 12/15/2021 1:43:13 PM
+staff | 12/15/2021 1:43:28 PM
+flights | 12/15/2021 1:43:29 PM
+flight select | 12/15/2021 1:43:29 PM
+staff | 12/15/2021 1:44:16 PM
+staff | 12/15/2021 1:44:29 PM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/15/2021 1:44:29 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/15/2021 1:44:29 PM
+staff | 12/15/2021 1:44:29 PM
+report | 12/15/2021 1:46:37 PM
+report | 12/15/2021 1:46:42 PM
+staff | 12/15/2021 1:46:55 PM
+staff | 12/15/2021 1:46:58 PM
+The DELETE statement conflicted with the REFERENCE constraint "FK_Flight_Staff". The conflict occurred in database "AIRLINESDB", table "dbo.flight", column 'pilot_id'.
+The statement has been terminated. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.sp_app_management(String json, String action) in C:\inetpub\wwwroot\dolapo_airline\App_Code\DAL.vb:line 20 | 12/15/2021 1:46:58 PM
+Object reference not set to an instance of an object. :    at Chathub.sp_app_management(String json_string, String action_type) in C:\inetpub\wwwroot\dolapo_airline\App_Code\Chathub.vb:line 30 | 12/15/2021 1:46:58 PM
+staff | 12/15/2021 1:46:58 PM
+flights | 12/15/2021 1:47:16 PM
+flight select | 12/15/2021 1:47:16 PM
+machines | 12/15/2021 1:47:19 PM
+staff | 12/15/2021 1:47:27 PM
+staff | 12/15/2021 1:47:30 PM
+staff | 12/15/2021 1:47:32 PM
+flights | 12/15/2021 1:48:03 PM
+flight select | 12/15/2021 1:48:03 PM
+machines | 12/15/2021 1:48:07 PM
+booking details | 12/15/2021 1:48:08 PM
+machine and pilot details | 12/15/2021 1:48:12 PM
+passenger and bookings | 12/15/2021 1:48:15 PM
+report | 12/15/2021 1:48:23 PM
+report | 12/15/2021 1:48:36 PM
+user login | 12/15/2021 1:48:42 PM
+all flight | 12/15/2021 1:48:46 PM
+my bookings | 12/15/2021 1:48:50 PM
+my passengers | 12/15/2021 1:49:04 PM
+all flight | 12/16/2021 4:14:19 PM
+all flight | 12/16/2021 4:17:09 PM
+all flight | 12/17/2021 7:33:51 AM
+user login | 12/17/2021 7:34:25 AM
+user login | 12/17/2021 7:34:32 AM
+user login | 12/17/2021 7:34:41 AM
+report | 12/17/2021 7:34:44 AM
+staff | 12/17/2021 7:35:51 AM
+staff | 12/17/2021 7:35:59 AM
+report | 12/17/2021 8:10:12 AM
+staff | 12/17/2021 8:10:14 AM
+report | 12/17/2021 8:11:59 AM
+staff | 12/17/2021 8:12:11 AM
+report | 12/17/2021 8:12:57 AM
+staff | 12/17/2021 8:13:09 AM
+staff | 12/17/2021 8:13:16 AM
+report | 12/17/2021 8:19:33 AM
+staff | 12/17/2021 8:19:41 AM
+report | 12/17/2021 8:20:36 AM
+staff | 12/17/2021 8:20:43 AM
+report | 12/17/2021 8:22:27 AM
+staff | 12/17/2021 8:22:31 AM
+report | 12/17/2021 8:24:39 AM
+staff | 12/17/2021 8:25:07 AM
+report | 12/17/2021 8:29:21 AM
+staff | 12/17/2021 8:29:24 AM
+report | 12/17/2021 8:33:04 AM
+staff | 12/17/2021 8:33:14 AM
+report | 12/17/2021 8:36:16 AM
+staff | 12/17/2021 8:36:21 AM
+report | 12/17/2021 8:40:53 AM
+report | 12/17/2021 8:41:53 AM
+staff | 12/17/2021 8:42:00 AM
+staff | 12/17/2021 8:42:17 AM
+staff | 12/17/2021 8:42:19 AM
+staff | 12/17/2021 8:42:35 AM
+staff | 12/17/2021 8:42:36 AM
+report | 12/17/2021 8:46:39 AM
+staff | 12/17/2021 8:46:43 AM
+report | 12/17/2021 8:47:03 AM
+staff | 12/17/2021 8:47:05 AM
+staff | 12/17/2021 8:48:21 AM
+staff | 12/17/2021 8:48:23 AM
+report | 12/17/2021 8:51:48 AM
+staff | 12/17/2021 8:51:50 AM
+staff | 12/17/2021 8:52:02 AM
+staff | 12/17/2021 8:52:03 AM
+report | 12/17/2021 8:53:08 AM
+staff | 12/17/2021 8:53:41 AM
+report | 12/17/2021 8:54:52 AM
+staff | 12/17/2021 8:54:57 AM
+staff | 12/17/2021 8:55:10 AM
+staff | 12/17/2021 8:55:11 AM
+staff | 12/17/2021 8:55:31 AM
+staff | 12/17/2021 8:55:32 AM
+all flight | 17/12/2021 09:22:49
+all flight | 17/12/2021 09:23:03
+all flight | 17/12/2021 09:38:47
+user login | 17/12/2021 09:38:53
+report | 17/12/2021 09:38:59
+report | 17/12/2021 09:41:34
+staff | 17/12/2021 09:41:43
+staff | 17/12/2021 09:42:14
+staff | 17/12/2021 09:42:16
+staff | 17/12/2021 09:43:38
+staff | 17/12/2021 09:43:40
+report | 17/12/2021 09:48:45
+user login | 17/12/2021 09:48:46
+report | 17/12/2021 09:48:48
+report | 17/12/2021 10:05:13
+report | 17/12/2021 10:05:20
+user login | 17/12/2021 10:05:25
+report | 17/12/2021 10:05:28
+report | 17/12/2021 10:07:24
+report | 17/12/2021 10:07:30
+user login | 17/12/2021 10:07:46
+report | 17/12/2021 10:08:18
+report | 17/12/2021 10:09:10
+report | 17/12/2021 11:06:55
+user login | 17/12/2021 11:06:56
+report | 17/12/2021 11:06:58
+staff | 17/12/2021 11:07:00
+flights | 17/12/2021 11:07:01
+flight select | 17/12/2021 11:07:01
+machines | 17/12/2021 11:07:02
+report | 17/12/2021 11:07:08
+user login | 17/12/2021 11:07:10
+report | 17/12/2021 11:07:12
+staff | 17/12/2021 11:07:13
+flights | 17/12/2021 11:07:15
+flight select | 17/12/2021 11:07:15
+staff | 17/12/2021 11:07:17
+booking details | 17/12/2021 11:07:24
+report | 17/12/2021 11:10:05
+user login | 17/12/2021 11:10:23
+all flight | 17/12/2021 11:10:25
+my bookings | 17/12/2021 11:10:27
+my passengers | 17/12/2021 11:10:29
+my bookings | 17/12/2021 11:10:30
+report | 17/12/2021 11:10:32
+my bookings | 17/12/2021 11:10:33
+my bookings | 17/12/2021 11:10:36
+all flight | 17/12/2021 11:10:50
+all flight | 17/12/2021 11:40:36
+user login | 17/12/2021 11:40:38
+report | 17/12/2021 11:40:40
+flights | 17/12/2021 11:40:44
+flight select | 17/12/2021 11:40:44
+staff | 17/12/2021 11:40:48
+report | 17/12/2021 11:42:39
+machine and pilot details | 17/12/2021 11:42:59
+booking details | 17/12/2021 11:43:07
+machines | 17/12/2021 11:43:09
+flights | 17/12/2021 11:43:10
+flight select | 17/12/2021 11:43:10
+booking details | 17/12/2021 11:43:11
+machine and pilot details | 17/12/2021 11:43:16
+machines | 17/12/2021 11:43:18
+passenger and bookings | 17/12/2021 11:43:25
+passenger and bookings | 17/12/2021 11:43:26
+report | 17/12/2021 11:43:28
+report | 17/12/2021 11:43:29
+report | 17/12/2021 11:43:30
+staff | 17/12/2021 11:43:40
+flights | 17/12/2021 11:43:41
+flight select | 17/12/2021 11:43:41
+machines | 17/12/2021 11:43:42
+booking details | 17/12/2021 11:43:44
+machine and pilot details | 17/12/2021 11:43:47
+passenger and bookings | 17/12/2021 11:43:49
+machine and pilot details | 17/12/2021 11:43:51
+staff | 17/12/2021 11:43:54
+flights | 17/12/2021 11:43:58
+flight select | 17/12/2021 11:43:58
+machines | 17/12/2021 11:43:58
+booking details | 17/12/2021 11:44:00
+machine and pilot details | 17/12/2021 11:44:02
+report | 17/12/2021 11:44:04
+machine and pilot details | 17/12/2021 11:44:06
+staff | 17/12/2021 11:44:08
+report | 17/12/2021 11:56:44
+user login | 17/12/2021 11:56:53
+report | 17/12/2021 11:56:55
+staff | 17/12/2021 11:57:09
+staff | 17/12/2021 11:57:57
+staff | 17/12/2021 11:58:00
+staff | 17/12/2021 11:58:36
+staff | 17/12/2021 11:58:38
+staff | 17/12/2021 11:58:49
+staff | 17/12/2021 11:58:50
+flights | 17/12/2021 11:58:56
+flight select | 17/12/2021 11:58:56
+machines | 17/12/2021 11:59:04
+booking details | 17/12/2021 11:59:18
+machine and pilot details | 17/12/2021 11:59:24
+passenger and bookings | 17/12/2021 11:59:27
+report | 17/12/2021 11:59:34
+report | 17/12/2021 11:59:51
+user login | 17/12/2021 12:00:04
+all flight | 17/12/2021 12:00:06
+my bookings | 17/12/2021 12:00:12
+book flight | 17/12/2021 12:02:07
+my passengers | 17/12/2021 12:02:16
+my bookings | 17/12/2021 12:02:30
+all flight | 17/12/2021 12:02:44
+all flight | 17/12/2021 12:45:30
+user login | 17/12/2021 12:45:30
+report | 17/12/2021 12:45:32
+staff | 17/12/2021 12:45:39
+flights | 17/12/2021 12:45:41
+flight select | 17/12/2021 12:45:41
+machines | 17/12/2021 12:45:42
+booking details | 17/12/2021 12:45:43
+machine and pilot details | 17/12/2021 12:45:44
+passenger and bookings | 17/12/2021 12:45:46
+booking details | 17/12/2021 12:46:05
+staff | 17/12/2021 12:46:12
+flights | 17/12/2021 12:46:14
+flight select | 17/12/2021 12:46:14
+machines | 17/12/2021 12:46:15
+flights | 17/12/2021 12:46:18
+flight select | 17/12/2021 12:46:18
+staff | 17/12/2021 12:46:19
+staff | 17/12/2021 12:46:36
+staff | 17/12/2021 12:46:38
+staff | 17/12/2021 12:47:48
+staff | 17/12/2021 12:47:50
+staff | 17/12/2021 12:48:26
+staff | 17/12/2021 12:48:28
+machine and pilot details | 17/12/2021 12:48:37
+passenger and bookings | 17/12/2021 12:48:39
+report | 17/12/2021 12:48:43
+staff | 17/12/2021 12:48:44
+report | 17/12/2021 12:48:45
+staff | 17/12/2021 12:48:46
+flights | 17/12/2021 12:48:47
+flight select | 17/12/2021 12:48:47
+machines | 17/12/2021 12:48:48
+booking details | 17/12/2021 12:48:49
+machine and pilot details | 17/12/2021 12:48:50
+passenger and bookings | 17/12/2021 12:48:51
+report | 17/12/2021 12:48:59
+user login | 17/12/2021 12:49:12
+all flight | 17/12/2021 12:49:14
+my passengers | 17/12/2021 12:49:16
+my bookings | 17/12/2021 12:49:19
+my passengers | 17/12/2021 12:49:21
+my passengers | 17/12/2021 12:49:53
+all flight | 04/10/2022 08:40:45
+user login | 04/10/2022 08:45:38
+all flight | 04/10/2022 08:45:40
+my bookings | 04/10/2022 08:45:44
+my passengers | 04/10/2022 08:45:45
+report | 04/10/2022 08:45:46
+my bookings | 04/10/2022 08:45:47
+my passengers | 04/10/2022 08:45:48
+report | 04/10/2022 08:45:49
+my bookings | 04/10/2022 08:45:49
+my passengers | 04/10/2022 08:45:50
+my bookings | 04/10/2022 08:45:52
+report | 04/10/2022 08:45:54
+my bookings | 04/10/2022 08:45:55
+my passengers | 04/10/2022 08:45:56
+my bookings | 04/10/2022 08:46:07
+my passengers | 04/10/2022 08:46:09
+all flight | 04/10/2022 08:46:15
+all flight | 04/10/2022 09:33:37
+all flight | 04/10/2022 10:53:14
